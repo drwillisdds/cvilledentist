@@ -5,11 +5,11 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 export const metadata: Metadata = {
   title: "Invisalign Cost Charlottesville VA | Pricing & Financing",
   description:
-    "How much does Invisalign cost in Charlottesville? Typical range $3,500-$6,500 at Willis & Associates. Insurance, financing, and Virginia Dental Club discounts.",
+    "How much does Invisalign cost in Charlottesville? Typical range $3,500-$6,500 at Cville Dentist. Insurance, financing, and Virginia Dental Club discounts.",
   openGraph: {
     title: "Invisalign Cost Charlottesville VA | Pricing & Financing",
     description:
-      "How much does Invisalign cost in Charlottesville? Typical range $3,500-$6,500 at Willis & Associates. Insurance, financing, and Virginia Dental Club discounts.",
+      "How much does Invisalign cost in Charlottesville? Typical range $3,500-$6,500 at Cville Dentist. Insurance, financing, and Virginia Dental Club discounts.",
     type: "website",
     locale: "en_US",
   },

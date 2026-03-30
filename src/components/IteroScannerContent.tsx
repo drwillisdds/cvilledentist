@@ -238,7 +238,7 @@ export default function IteroScannerContent() {
             variants={itemVariants}
             className="font-heading text-4xl md:text-5xl font-bold text-[#faf9f7] mb-12 text-center"
           >
-            Why We Use iTero at Willis & Associates
+            Why We Use iTero at Cville Dentist
           </motion.h2>
 
           <motion.div
@@ -625,7 +625,7 @@ export default function IteroScannerContent() {
             variants={itemVariants}
             className="font-heading text-4xl md:text-5xl font-bold text-[#faf9f7] mb-12 text-center"
           >
-            Explore More Advanced Technology at Willis & Associates
+            Explore More Advanced Technology at Cville Dentist
           </motion.h2>
 
           <motion.div

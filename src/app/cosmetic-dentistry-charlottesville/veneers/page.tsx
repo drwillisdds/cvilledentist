@@ -24,7 +24,7 @@ export default function Veneers() {
     <>
       <VeneersContent />
       <SchemaMarkup
-        description="Porcelain veneers in Charlottesville by Dr. Karamcheti at Willis & Associates. Custom-designed veneers for natural-looking smile transformations. No Hollywood look — just your best smile."
+        description="Porcelain veneers in Charlottesville by Dr. Karamcheti at Cville Dentist. Custom-designed veneers for natural-looking smile transformations. No Hollywood look — just your best smile."
         customData={{
           "@type": ["Dentist", "LocalBusiness", "MedicalBusiness"],
           areaServed: {

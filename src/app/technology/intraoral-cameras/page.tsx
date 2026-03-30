@@ -5,7 +5,7 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 export const metadata: Metadata = {
   title: "Intraoral Cameras in Charlottesville | See Your Teeth Up Close",
   description:
-    "Intraoral cameras at Willis & Associates let you see exactly what Dr. Karamcheti sees. HD imaging for patient education and early problem detection in Charlottesville.",
+    "Intraoral cameras at Cville Dentist let you see exactly what Dr. Karamcheti sees. HD imaging for patient education and early problem detection in Charlottesville.",
   openGraph: {
     title: "Intraoral Cameras in Charlottesville | See Your Teeth Up Close",
     description:
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 export default function IntraoralCamerasPage() {
   return (
     <>
-      <SchemaMarkup description="Intraoral camera technology at Willis & Associates Charlottesville. Advanced imaging lets patients see their teeth in HD during exams." />
+      <SchemaMarkup description="Intraoral camera technology at Cville Dentist Charlottesville. Advanced imaging lets patients see their teeth in HD during exams." />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{

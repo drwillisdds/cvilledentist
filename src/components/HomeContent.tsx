@@ -13,8 +13,9 @@ import {
   Phone,
   Mail,
 } from "lucide-react";
+import { images } from "@/lib/images";
 import CTASection from "./CTASection";
-import ImagePlaceholder from "./ImagePlaceholder";
+import GoogleReviews from "./GoogleReviews";
 
 // Hero Section
 function HeroSection() {
@@ -51,8 +52,16 @@ function HeroSection() {
   };
 
   return (
-    <section className="min-h-screen bg-navy text-white flex items-center">
-      <div className="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8">
+    <section
+      className="min-h-screen bg-navy text-white flex items-center relative overflow-hidden"
+      style={{
+        backgroundImage: `url(${images.hero})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
+      <div className="absolute inset-0 bg-navy bg-opacity-60"></div>
+      <div className="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left side - Text */}
           <div className="space-y-6">
@@ -81,25 +90,28 @@ function HeroSection() {
               listens.
             </motion.p>
 
-            {/* CTA buttons */}
+            {/* CTA buttons + Phone */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 1, duration: 0.6 }}
-              className="flex flex-col sm:flex-row gap-4 pt-4"
+              className="space-y-4 pt-4"
             >
-              <Link
-                href="/contact"
-                className="bg-gold text-navy px-8 py-4 font-semibold rounded-full hover:bg-opacity-90 transition-all transform hover:scale-105 text-center"
-              >
-                Book Your Appointment
-              </Link>
-              <a
-                href="tel:(434)973-5873"
-                className="border-2 border-gold text-gold px-8 py-4 font-semibold rounded-full hover:bg-gold hover:text-navy transition-all transform hover:scale-105 text-center"
-              >
-                Call (434) 973-5873
-              </a>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <Link
+                  href="/contact"
+                  className="bg-gold text-navy px-8 py-4 font-semibold rounded-full hover:bg-opacity-90 transition-all transform hover:scale-105 text-center"
+                >
+                  Book Your Appointment
+                </Link>
+                <a
+                  href="tel:(434)973-5873"
+                  className="border-2 border-gold text-gold px-8 py-4 font-semibold rounded-full hover:bg-gold hover:text-navy transition-all transform hover:scale-105 text-center flex items-center justify-center gap-2"
+                >
+                  <Phone size={20} />
+                  Call (434) 973-5873
+                </a>
+              </div>
             </motion.div>
           </div>
 
@@ -108,10 +120,12 @@ function HeroSection() {
             initial={{ opacity: 0, x: 40 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.3, duration: 0.8 }}
+            className="hidden lg:block"
           >
-            <ImagePlaceholder
-              aspectRatio="3/4"
-              label="Dr. Sowmya Karamcheti, DDS, MHA"
+            <img
+              src={images.drKaramcheti}
+              alt="Dr. Sowmya Karamcheti, DDS, MHA - Charlottesville Dentist"
+              className="w-full h-auto rounded-lg shadow-2xl"
             />
           </motion.div>
         </div>
@@ -127,7 +141,7 @@ function DirectAnswerBlock() {
       <div className="max-w-4xl mx-auto">
         <p className="text-sm font-semibold text-[#c9a84c] uppercase tracking-wider mb-2">Quick Answer</p>
         <p className="text-lg md:text-xl text-[#1a2332] font-medium leading-relaxed">
-          Willis & Associates Family Dentistry, led by Dr. Sowmya Karamcheti (DDS, MHA), offers same-day appointments, in-house dental implants, Invisalign, and emergency care at 2375 Commonwealth Dr in Charlottesville. No referrals needed. New patients welcome — including those without insurance through the Virginia Dental Club.
+          Cville Dentist, led by Dr. Sowmya Karamcheti (DDS, MHA), offers same-day appointments, in-house dental implants, Invisalign, and emergency care at 2375 Commonwealth Dr in Charlottesville. No referrals needed. New patients welcome — including those without insurance through the Virginia Dental Club.
         </p>
       </div>
     </section>
@@ -195,9 +209,10 @@ function AboutSection() {
             animate={inView ? { opacity: 1, x: 0 } : { opacity: 0, x: -40 }}
             transition={{ duration: 0.8 }}
           >
-            <ImagePlaceholder
-              aspectRatio="4/5"
-              label="Dr. Karamcheti in her Charlottesville office"
+            <img
+              src={images.drKaramcheti}
+              alt="Dr. Sowmya Karamcheti in her Charlottesville dental office"
+              className="w-full h-auto rounded-lg shadow-lg"
             />
           </motion.div>
 
@@ -254,39 +269,39 @@ function ServicesSection() {
       title: "Dental Implants",
       description: "In-house placement and restoration. No referrals.",
       link: "/dental-implants-charlottesville",
-      icon: Wrench,
+      image: images.womanSmiling,
     },
     {
       title: "Invisalign",
       description: "Clear aligners for adults and teens. Free smile assessment.",
       link: "/invisalign-charlottesville",
-      icon: Shield,
+      image: images.invisalignService,
     },
     {
       title: "Cosmetic Dentistry",
       description: "Veneers, bonding, whitening—natural results.",
       link: "/cosmetic-dentistry-charlottesville",
-      icon: Star,
+      image: images.cosmeticService,
     },
     {
       title: "Emergency Dentistry",
       description: "Same-day emergency appointments. Call now.",
       link: "/emergency-dentist-charlottesville",
-      icon: AlertCircle,
+      image: images.emergencyService,
     },
     {
       title: "General Dentistry",
       description:
         "Cleanings, exams, crowns, fillings—complete family care.",
       link: "/general-dentistry-charlottesville",
-      icon: Calendar,
+      image: images.familyService,
     },
     {
       title: "Virginia Dental Club",
       description:
         "No insurance? Our membership plan covers you.",
       link: "/virginia-dental-club",
-      icon: UserPlus,
+      image: images.insuranceService,
     },
   ];
 
@@ -305,18 +320,21 @@ function ServicesSection() {
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {services.map((service, index) => {
-            const IconComponent = service.icon;
-            return (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 20 }}
-                animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-              >
-                <Link href={service.link}>
-                  <div className="h-full bg-white rounded-lg shadow-sm hover:shadow-md hover:scale-102 transition-all border-t-4 border-gold p-8 cursor-pointer">
-                    <IconComponent className="text-gold mb-4" size={32} />
+          {services.map((service, index) => (
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, y: 20 }}
+              animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+              transition={{ duration: 0.6, delay: index * 0.1 }}
+            >
+              <Link href={service.link}>
+                <div className="h-full bg-white rounded-lg shadow-sm hover:shadow-md hover:scale-102 transition-all border-t-4 border-gold overflow-hidden cursor-pointer">
+                  <img
+                    src={service.image}
+                    alt={`${service.title} in Charlottesville`}
+                    className="w-full h-48 object-cover"
+                  />
+                  <div className="p-8">
                     <h3 className="heading-sm text-navy mb-3">
                       {service.title}
                     </h3>
@@ -324,18 +342,121 @@ function ServicesSection() {
                       {service.description}
                     </p>
                   </div>
-                </Link>
-              </motion.div>
-            );
-          })}
+                </div>
+              </Link>
+            </motion.div>
+          ))}
         </div>
       </div>
     </section>
   );
 }
 
-// Add the missing import
-import { AlertCircle } from "lucide-react";
+// Office Tour Section
+function OfficeTourSection() {
+  const { ref, inView } = useInView({
+    triggerOnce: true,
+    threshold: 0.05,
+  });
+
+  const officePhotos = [
+    {
+      image: images.officeInterior1,
+      alt: "Cville Dentist waiting room in Charlottesville",
+    },
+    {
+      image: images.officeInterior2,
+      alt: "Dental treatment room at Cville Dentist Charlottesville",
+    },
+    {
+      image: images.officeInterior3,
+      alt: "Modern dental office interior in Charlottesville",
+    },
+  ];
+
+  return (
+    <section ref={ref} className="py-16 md:py-24 bg-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+          transition={{ duration: 0.6 }}
+          className="mb-16 text-center"
+        >
+          <h2 className="heading-lg text-navy">
+            Our Charlottesville Office
+          </h2>
+          <p className="text-navy text-opacity-70 mt-4 max-w-2xl mx-auto">
+            A clean, comfortable, modern space designed for patient comfort and clinical excellence.
+          </p>
+        </motion.div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {officePhotos.map((photo, index) => (
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, y: 20 }}
+              animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+              transition={{ duration: 0.6, delay: index * 0.1 }}
+              className="rounded-lg overflow-hidden shadow-md"
+            >
+              <img
+                src={photo.image}
+                alt={photo.alt}
+                className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
+              />
+            </motion.div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+// Trust Badges Section
+function TrustBadgesSection() {
+  const { ref, inView } = useInView({
+    triggerOnce: true,
+    threshold: 0.1,
+  });
+
+  const badges = [
+    { image: images.googleReview, alt: "Google Reviews logo" },
+    { image: images.healthgrades, alt: "Healthgrades logo" },
+    { image: images.invisalignLogo, alt: "Invisalign certified provider" },
+    { image: images.iteroLogo, alt: "iTero digital scanner logo" },
+    { image: images.agdLogo, alt: "Academy of General Dentistry logo" },
+    { image: images.adaLogo, alt: "American Dental Association logo" },
+  ];
+
+  return (
+    <section
+      ref={ref}
+      className="py-12 md:py-16 bg-navy"
+    >
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={inView ? { opacity: 1 } : { opacity: 0 }}
+          transition={{ duration: 0.6 }}
+          className="flex flex-wrap items-center justify-center gap-8 md:gap-12"
+        >
+          {badges.map((badge, index) => (
+            <motion.img
+              key={index}
+              src={badge.image}
+              alt={badge.alt}
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={inView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.8 }}
+              transition={{ duration: 0.6, delay: index * 0.05 }}
+              className="h-12 w-auto object-contain"
+            />
+          ))}
+        </motion.div>
+      </div>
+    </section>
+  );
+}
 
 // Virginia Dental Club Callout
 function VirginiaClubSection() {
@@ -482,7 +603,7 @@ function LocationSection() {
           >
             <div>
               <h3 className="heading-sm text-navy mb-6">
-                Willis & Associates Family Dentistry
+                Cville Dentist
               </h3>
             </div>
 
@@ -548,16 +669,22 @@ function LocationSection() {
             </div>
           </motion.div>
 
-          {/* Map Placeholder */}
+          {/* Google Maps Embed */}
           <motion.div
             initial={{ opacity: 0, x: 40 }}
             animate={inView ? { opacity: 1, x: 0 } : { opacity: 0, x: 40 }}
             transition={{ duration: 0.8 }}
+            className="rounded-lg overflow-hidden shadow-md"
           >
-            <ImagePlaceholder
-              aspectRatio="4/3"
-              label="Google Maps Embed — 2375 Commonwealth Dr # A, Charlottesville, VA 22901"
-            />
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3142.5!2d-78.5!3d38.03!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b3862d2c5ee3a5%3A0x1234!2s2375+Commonwealth+Dr+%23+A%2C+Charlottesville%2C+VA+22901!5e0!3m2!1sen!2sus!4v1711234567890!5m2!1sen!2sus"
+              width="100%"
+              height="400"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
           </motion.div>
         </div>
       </div>
@@ -574,8 +701,10 @@ export default function HomeContent() {
       <TrustBar />
       <AboutSection />
       <ServicesSection />
+      <OfficeTourSection />
+      <TrustBadgesSection />
       <VirginiaClubSection />
-      <ReviewsSection />
+      <GoogleReviews />
       <LocationSection />
       <CTASection
         headline="New Patients Welcome. Same-Day Appointments Available."

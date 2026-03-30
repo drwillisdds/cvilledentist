@@ -3,13 +3,13 @@ import OralCancerScreeningContent from "@/components/OralCancerScreeningContent"
 import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
-  title: "Oral Cancer Screening in Charlottesville | Willis & Associates",
+  title: "Oral Cancer Screening in Charlottesville | Cville Dentist",
   description:
-    "Comprehensive oral cancer screenings at Willis & Associates. Dr. Karamcheti uses advanced technology to detect early signs. Included in every exam.",
+    "Comprehensive oral cancer screenings at Cville Dentist. Dr. Karamcheti uses advanced technology to detect early signs. Included in every exam.",
   openGraph: {
-    title: "Oral Cancer Screening in Charlottesville | Willis & Associates",
+    title: "Oral Cancer Screening in Charlottesville | Cville Dentist",
     description:
-      "Comprehensive oral cancer screenings at Willis & Associates. Dr. Karamcheti uses advanced technology to detect early signs. Included in every exam.",
+      "Comprehensive oral cancer screenings at Cville Dentist. Dr. Karamcheti uses advanced technology to detect early signs. Included in every exam.",
     type: "website",
     url: "https://cvilledentist.com/general-dentistry-charlottesville/oral-cancer-screening",
   },

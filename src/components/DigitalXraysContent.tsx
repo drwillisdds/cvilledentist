@@ -165,7 +165,7 @@ export default function DigitalXraysContent() {
             variants={itemVariants}
             className="font-body text-lg md:text-xl text-[#f0ebe3] mb-10 leading-relaxed"
           >
-            Willis & Associates uses advanced digital x-ray technology to provide
+            Cville Dentist uses advanced digital x-ray technology to provide
             fast, safe, and precise imaging. Dr. Karamcheti can see what matters most
             — early decay, bone loss, infection — and create better treatment plans
             for you.

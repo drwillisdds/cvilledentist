@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import CTASection from "@/components/CTASection";
-import ImagePlaceholder from "@/components/ImagePlaceholder";
+import { images } from "@/lib/images";
 import {
   Smile,
   Crown,
@@ -137,7 +137,7 @@ export default function GeneralDentistryContent() {
         <div className="max-w-4xl mx-auto">
           <p className="text-sm font-semibold text-[#c9a84c] uppercase tracking-wider mb-2">Quick Answer</p>
           <p className="text-lg md:text-xl text-[#1a2332] font-medium leading-relaxed">
-            Dr. Sowmya Karamcheti, DDS, MHA at Willis & Associates Family Dentistry serves families across Charlottesville from their Commonwealth Drive office. The practice offers cleanings, exams, crowns, fillings, extractions, and oral cancer screenings for patients of all ages — with same-day appointments and a membership plan for uninsured patients.
+            Dr. Sowmya Karamcheti, DDS, MHA at Cville Dentist serves families across Charlottesville from their Commonwealth Drive office. The practice offers cleanings, exams, crowns, fillings, extractions, and oral cancer screenings for patients of all ages — with same-day appointments and a membership plan for uninsured patients.
           </p>
         </div>
       </section>
@@ -183,10 +183,10 @@ export default function GeneralDentistryContent() {
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            <ImagePlaceholder
-              aspectRatio="square"
-              label="Family Dental Care"
-              className="rounded-lg shadow-lg"
+            <img
+              src={images.dentalExam}
+              alt="Family dental exam and general dentistry care in Charlottesville"
+              className="w-full h-full object-cover rounded-lg shadow-lg"
             />
           </motion.div>
         </div>

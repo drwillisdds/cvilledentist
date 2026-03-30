@@ -43,7 +43,7 @@ export default function DentalBridgesContent() {
             Dental Bridges in Charlottesville
           </h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Restore your smile and confidence with a fixed dental bridge. Willis & Associates offers multiple bridge options to replace missing teeth and restore your ability to eat, speak, and smile naturally.
+            Restore your smile and confidence with a fixed dental bridge. Cville Dentist offers multiple bridge options to replace missing teeth and restore your ability to eat, speak, and smile naturally.
           </p>
         </motion.div>
       </section>
@@ -358,7 +358,7 @@ export default function DentalBridgesContent() {
           variants={sectionVariants}
         >
           <h2 className="text-3xl font-bold font-heading mb-8 text-[#1a2332]">
-            The Bridge Process at Willis & Associates
+            The Bridge Process at Cville Dentist
           </h2>
 
           <p className="text-gray-700 leading-relaxed mb-8">
@@ -554,7 +554,7 @@ export default function DentalBridgesContent() {
           <div className="bg-white rounded-lg p-8 shadow-sm border border-gray-100">
             <h3 className="font-heading text-lg mb-6 text-[#1a2332]">Regular Checkups</h3>
             <p className="text-gray-700 leading-relaxed mb-4">
-              Visit Willis & Associates every six months for cleanings and exams. Dr. Karamcheti will check your bridge for loosening, damage, or decay at the margins. She will also examine the supporting teeth and monitor the bone beneath the bridge.
+              Visit Cville Dentist every six months for cleanings and exams. Dr. Karamcheti will check your bridge for loosening, damage, or decay at the margins. She will also examine the supporting teeth and monitor the bone beneath the bridge.
             </p>
             <p className="text-gray-700 leading-relaxed">
               If your bridge becomes loose, uncomfortable, or damaged, contact us immediately. Early intervention can often save the bridge. If the bridge fails completely, a new bridge or implant can be placed.
@@ -731,7 +731,7 @@ export default function DentalBridgesContent() {
             Replace Missing Teeth With a Dental Bridge
           </h2>
           <p className="text-lg mb-8 max-w-2xl mx-auto text-gray-200">
-            Willis & Associates offers custom dental bridges to restore your smile and bite. Dr. Karamcheti will help you choose the best bridge type for your situation.
+            Cville Dentist offers custom dental bridges to restore your smile and bite. Dr. Karamcheti will help you choose the best bridge type for your situation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">

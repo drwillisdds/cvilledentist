@@ -151,7 +151,7 @@ export default function BlogDentalEmergencyContent() {
               </ul>
             </li>
             <li>
-              <strong>Call us immediately.</strong> Willis & Associates offers
+              <strong>Call us immediately.</strong> Cville Dentist offers
               emergency treatment, and we often can save a tooth if seen within
               30 minutes to an hour.
             </li>
@@ -328,7 +328,7 @@ export default function BlogDentalEmergencyContent() {
           </p>
 
           <h2 className="text-2xl font-bold text-navy mb-4 mt-8 font-heading">
-            Willis & Associates Emergency Dentistry in Charlottesville
+            Cville Dentist Emergency Dentistry in Charlottesville
           </h2>
           <p className="text-navy/80 leading-relaxed mb-6">
             Here's what I want you to know about our practice: we take dental
@@ -393,8 +393,8 @@ export default function BlogDentalEmergencyContent() {
 
           <div className="bg-navy text-cream p-8 rounded-lg my-8">
             <p className="text-lg mb-4">
-              If you're experiencing a dental emergency, don't wait. Call Willis &
-              Associates Family Dentistry at (434) 973-5873 immediately.
+              If you're experiencing a dental emergency, don't wait. Call Cville
+              Dentist at (434) 973-5873 immediately.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link

@@ -3,10 +3,10 @@ import DeepCleaningContent from "@/components/general-dentistry/DeepCleaningCont
 import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
-  title: "Deep Cleaning & Scaling in Charlottesville | Willis & Associates",
+  title: "Deep Cleaning & Scaling in Charlottesville | Cville Dentist",
   description: "Scaling and root planing (deep cleaning) for gum disease in Charlottesville. Dr. Sowmya Karamcheti uses gentle techniques to restore gum health.",
   openGraph: {
-    title: "Deep Cleaning & Scaling in Charlottesville | Willis & Associates",
+    title: "Deep Cleaning & Scaling in Charlottesville | Cville Dentist",
     description: "Deep cleaning and scaling root planing for gum disease treatment in Charlottesville with Dr. Sowmya Karamcheti.",
     type: "website",
     url: "https://cvilledentist.com/general-dentistry-charlottesville/deep-cleaning",

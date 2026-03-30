@@ -3,7 +3,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import ImagePlaceholder from "@/components/ImagePlaceholder";
 import CTASection from "@/components/CTASection";
 
 const containerVariants = {
@@ -166,7 +165,7 @@ export default function ImplantRestorationsContent() {
     {
       title: "Professional Cleanings",
       description:
-        "Visit Willis & Associates every 6 months for professional cleaning and check-up. Dr. Karamcheti monitors the implant and crown for any issues.",
+        "Visit Cville Dentist every 6 months for professional cleaning and check-up. Dr. Karamcheti monitors the implant and crown for any issues.",
     },
     {
       title: "Avoid Hard Foods",
@@ -280,7 +279,7 @@ export default function ImplantRestorationsContent() {
             transition={{ duration: 0.6, ease: [0, 0, 0.2, 1] as [number, number, number, number] }}
           >
             <p className="text-lg text-gray-800 leading-relaxed font-semibold mb-3">
-              Dr. Karamcheti designs and places custom implant crowns at Willis & Associates in Charlottesville. Because the same doctor handles both placement and restoration, your implant crown fits precisely and matches your natural teeth.
+              Dr. Karamcheti designs and places custom implant crowns at Cville Dentist in Charlottesville. Because the same doctor handles both placement and restoration, your implant crown fits precisely and matches your natural teeth.
             </p>
             <p className="text-gray-700 leading-relaxed">
               The restoration phase is the final step in your implant journey. After your implant has integrated with bone (3-6 months), Dr. Karamcheti designs a custom crown that looks and functions like your natural tooth—and lasts for decades.
@@ -582,7 +581,7 @@ export default function ImplantRestorationsContent() {
       <CTASection
         variant="gold"
         headline="Restore Your Smile With Confidence"
-        subheadline="Complete your implant journey with Dr. Karamcheti's custom crown restoration. Schedule your consultation at Willis & Associates."
+        subheadline="Complete your implant journey with Dr. Karamcheti's custom crown restoration. Schedule your consultation at Cville Dentist."
         buttonText="Book Your Restoration Consultation"
         buttonLink="/new-patients"
       />

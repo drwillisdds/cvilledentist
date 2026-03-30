@@ -3,11 +3,11 @@ import ToothExtractionsContent from "@/components/ToothExtractionsContent";
 import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
-  title: "Tooth Extractions in Charlottesville VA | Willis & Associates",
+  title: "Tooth Extractions in Charlottesville VA | Cville Dentist",
   description:
     "Gentle tooth extractions in Charlottesville. Dr. Karamcheti handles simple and surgical extractions with expertise and care. Sedation options available.",
   openGraph: {
-    title: "Tooth Extractions in Charlottesville VA | Willis & Associates",
+    title: "Tooth Extractions in Charlottesville VA | Cville Dentist",
     description:
       "Gentle tooth extractions in Charlottesville. Dr. Karamcheti handles simple and surgical extractions with expertise and care. Sedation options available.",
     type: "website",

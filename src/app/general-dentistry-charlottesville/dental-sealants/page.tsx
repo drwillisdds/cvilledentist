@@ -3,10 +3,10 @@ import DentalSealantsContent from "@/components/general-dentistry/DentalSealants
 import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
-  title: "Dental Sealants in Charlottesville VA | Willis & Associates",
+  title: "Dental Sealants in Charlottesville VA | Cville Dentist",
   description: "Dental sealants for kids and adults in Charlottesville. Quick, painless cavity prevention by Dr. Sowmya Karamcheti. Protect molars from decay.",
   openGraph: {
-    title: "Dental Sealants in Charlottesville VA | Willis & Associates",
+    title: "Dental Sealants in Charlottesville VA | Cville Dentist",
     description: "Dental sealants for kids and adults in Charlottesville. Quick, painless cavity prevention by Dr. Sowmya Karamcheti.",
     type: "website",
     url: "https://cvilledentist.com/general-dentistry-charlottesville/dental-sealants",

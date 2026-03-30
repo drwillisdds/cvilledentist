@@ -5,7 +5,7 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 export const metadata: Metadata = {
   title: "Digital X-Rays in Charlottesville VA | Low Radiation Imaging",
   description:
-    "Digital X-rays at Willis & Associates use 90% less radiation than traditional film. Fast, accurate, and patient-safe. Learn how Dr. Karamcheti uses them for precise diagnosis.",
+    "Digital X-rays at Cville Dentist use 90% less radiation than traditional film. Fast, accurate, and patient-safe. Learn how Dr. Karamcheti uses them for precise diagnosis.",
   openGraph: {
     title: "Digital X-Rays in Charlottesville VA | Low Radiation Imaging",
     description:
@@ -47,7 +47,7 @@ export default function DigitalXraysPage() {
               },
               {
                 "@type": "Question",
-                name: "What types of digital x-rays does Willis & Associates offer?",
+                name: "What types of digital x-rays does Cville Dentist offer?",
                 acceptedAnswer: {
                   "@type": "Answer",
                   text: "We offer bitewing x-rays (show upper and lower back teeth), panoramic x-rays (full-mouth overview), and periapical x-rays (show individual teeth from root to crown). Dr. Karamcheti selects the appropriate type based on your specific needs.",

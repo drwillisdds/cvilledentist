@@ -3,7 +3,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import ImagePlaceholder from "@/components/ImagePlaceholder";
+import { images } from "@/lib/images";
 import CTASection from "@/components/CTASection";
 
 const containerVariants = {
@@ -224,7 +224,7 @@ export default function BondingContent() {
               Quick Answer
             </p>
             <p className="text-lg md:text-xl text-[#1a2332] font-medium leading-relaxed">
-              Dental bonding at Willis & Associates in Charlottesville starts at $300 per tooth and takes one visit. Dr. Karamcheti sculpts tooth-colored composite directly onto the tooth to fix chips, gaps, and discoloration — no lab work, no waiting.
+              Dental bonding at Cville Dentist in Charlottesville starts at $300 per tooth and takes one visit. Dr. Karamcheti sculpts tooth-colored composite directly onto the tooth to fix chips, gaps, and discoloration — no lab work, no waiting.
             </p>
           </motion.div>
         </div>
@@ -286,9 +286,10 @@ export default function BondingContent() {
               animate={whatInView ? { opacity: 1, x: 0 } : { opacity: 0, x: 20 }}
               transition={{ duration: 0.6, ease: [0, 0, 0.2, 1] as [number, number, number, number] }}
             >
-              <ImagePlaceholder
-                aspectRatio="4/5"
-                label="Dental bonding repair in Charlottesville"
+              <img
+                src={images.smileCloseup}
+                alt="Close-up of beautiful smile with dental bonding at Charlottesville dental office"
+                className="w-full h-full object-cover rounded-xl"
               />
             </motion.div>
           </div>
@@ -649,7 +650,7 @@ export default function BondingContent() {
             className="space-y-4 text-lg text-white text-opacity-90"
           >
             <p>
-              <span className="font-semibold">Willis & Associates Family Dentistry</span>
+              <span className="font-semibold">Cville Dentist</span>
               <br />
               2375 Commonwealth Dr # A, Charlottesville, VA 22901
               <br />

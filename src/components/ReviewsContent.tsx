@@ -4,6 +4,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import CTASection from "@/components/CTASection";
+import GoogleReviews from "@/components/GoogleReviews";
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -47,7 +48,7 @@ const reviews = [
     category: "Invisalign",
     rating: 5,
     date: "January 2026",
-    text: "My Invisalign treatment with Willis & Associates was seamless. Regular check-ins, clear instructions, and a beautiful smile at the end. Would recommend to anyone considering braces.",
+    text: "My Invisalign treatment with Cville Dentist was seamless. Regular check-ins, clear instructions, and a beautiful smile at the end. Would recommend to anyone considering braces.",
   },
   {
     name: "Michael Thompson",
@@ -75,7 +76,7 @@ const reviews = [
     category: "Invisalign",
     rating: 5,
     date: "September 2025",
-    text: "Started my Invisalign journey at Willis & Associates and the tracking has been perfect. Monthly visits are quick, and my teeth are tracking right on schedule.",
+    text: "Started my Invisalign journey at Cville Dentist and the tracking has been perfect. Monthly visits are quick, and my teeth are tracking right on schedule.",
   },
   {
     name: "Robert Williams",
@@ -89,7 +90,7 @@ const reviews = [
     category: "General Dentistry",
     rating: 5,
     date: "July 2025",
-    text: "I was nervous about dental work, but the hygienists at Willis & Associates are so gentle and patient. They made a real difference in my comfort level.",
+    text: "I was nervous about dental work, but the hygienists at Cville Dentist are so gentle and patient. They made a real difference in my comfort level.",
   },
   {
     name: "Kevin Murphy",
@@ -110,7 +111,7 @@ const reviews = [
     category: "General Dentistry",
     rating: 5,
     date: "April 2025",
-    text: "Family practice for 15 years now. My kids actually don't mind going to the dentist because Willis & Associates made it a positive experience. That's saying something.",
+    text: "Family practice for 15 years now. My kids actually don't mind going to the dentist because Cville Dentist made it a positive experience. That's saying something.",
   },
 ];
 
@@ -175,7 +176,7 @@ export default function ReviewsContent() {
             transition={{ duration: 0.6, ease: easeValue }}
             className="heading-lg mb-6"
           >
-            Patient Reviews — Willis & Associates Family Dentistry
+            Patient Reviews — Cville Dentist
           </motion.h1>
 
           <motion.p
@@ -341,7 +342,7 @@ export default function ReviewsContent() {
             viewport={{ once: true, amount: 0.1 }}
             className="heading-md text-navy text-center mb-16"
           >
-            Why Patients Choose Willis & Associates
+            Why Patients Choose Cville Dentist
           </motion.h2>
 
           <motion.div
@@ -396,10 +397,13 @@ export default function ReviewsContent() {
         </div>
       </section>
 
+      {/* Google Reviews Widget */}
+      <GoogleReviews />
+
       {/* Final CTA */}
       <CTASection
         variant="navy"
-        headline="Ready to Experience Willis & Associates?"
+        headline="Ready to Experience Cville Dentist?"
         subheadline="Join hundreds of satisfied patients. Book your appointment today."
         buttonText="Schedule Now"
         buttonLink="/contact"

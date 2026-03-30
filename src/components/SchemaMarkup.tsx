@@ -8,7 +8,7 @@ interface SchemaMarkupProps {
 }
 
 export default function SchemaMarkup({
-  name = "Willis & Associates Family Dentistry",
+  name = "Cville Dentist",
   description,
   url = "https://www.cvilledentist.com",
   telephone = "(434) 973-5873",

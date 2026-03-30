@@ -639,7 +639,7 @@ export default function DeepCleaningContent() {
       {/* CTA Section */}
       <CTASection
         headline="Treat Gum Disease & Save Your Teeth"
-        subheadline="Dr. Karamcheti provides gentle, thorough deep cleaning to halt gum disease. Schedule your consultation at Willis & Associates in Charlottesville today."
+        subheadline="Dr. Karamcheti provides gentle, thorough deep cleaning to halt gum disease. Schedule your consultation at Cville Dentist in Charlottesville today."
         buttonText="Request an Appointment"
         buttonLink="/contact"
         variant="navy"

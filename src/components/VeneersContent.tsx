@@ -3,7 +3,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import ImagePlaceholder from "@/components/ImagePlaceholder";
+import { images } from "@/lib/images";
 import CTASection from "@/components/CTASection";
 
 const containerVariants = {
@@ -189,7 +189,7 @@ export default function VeneersContent() {
     {
       question: "How much do porcelain veneers cost?",
       answer:
-        "Porcelain veneers at Willis & Associates in Charlottesville range from $1,200 to $2,500 per tooth, depending on complexity and lab costs. Most patients do 2-4 veneers to match the visible smile. Dr. Karamcheti discusses cost during your consultation.",
+        "Porcelain veneers at Cville Dentist in Charlottesville range from $1,200 to $2,500 per tooth, depending on complexity and lab costs. Most patients do 2-4 veneers to match the visible smile. Dr. Karamcheti discusses cost during your consultation.",
     },
   ];
 
@@ -238,7 +238,7 @@ export default function VeneersContent() {
               Quick Answer
             </p>
             <p className="text-lg md:text-xl text-[#1a2332] font-medium leading-relaxed">
-              Porcelain veneers at Willis & Associates in Charlottesville range from $1,200 to $2,500 per tooth. Dr. Karamcheti designs each veneer to look natural — color-matched and shaped to complement your face, not the over-white obvious look some patients fear.
+              Porcelain veneers at Cville Dentist in Charlottesville range from $1,200 to $2,500 per tooth. Dr. Karamcheti designs each veneer to look natural — color-matched and shaped to complement your face, not the over-white obvious look some patients fear.
             </p>
           </motion.div>
         </div>
@@ -302,9 +302,10 @@ export default function VeneersContent() {
               animate={whyInView ? { opacity: 1, x: 0 } : { opacity: 0, x: 20 }}
               transition={{ duration: 0.6, ease: [0, 0, 0.2, 1] as [number, number, number, number] }}
             >
-              <ImagePlaceholder
-                aspectRatio="4/5"
-                label="Porcelain veneer consultation in Charlottesville"
+              <img
+                src={images.cosmeticSmile}
+                alt="Beautiful cosmetic smile with porcelain veneers at Charlottesville dental office"
+                className="w-full h-full object-cover rounded-xl"
               />
             </motion.div>
           </div>
@@ -689,7 +690,7 @@ export default function VeneersContent() {
             className="space-y-4 text-lg text-white text-opacity-90"
           >
             <p>
-              <span className="font-semibold">Willis & Associates Family Dentistry</span>
+              <span className="font-semibold">Cville Dentist</span>
               <br />
               2375 Commonwealth Dr # A, Charlottesville, VA 22901
               <br />

@@ -3,7 +3,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import ImagePlaceholder from "@/components/ImagePlaceholder";
 import CTASection from "@/components/CTASection";
 
 const containerVariants = {
@@ -233,7 +232,7 @@ export default function WhiteningContent() {
               Quick Answer
             </p>
             <p className="text-lg md:text-xl text-[#1a2332] font-medium leading-relaxed">
-              Professional teeth whitening at Willis & Associates in Charlottesville delivers results drugstore strips can't match. In-office whitening takes about one hour. Custom take-home trays available for gradual brightening. Both options supervised by Dr. Karamcheti.
+              Professional teeth whitening at Cville Dentist in Charlottesville delivers results drugstore strips can't match. In-office whitening takes about one hour. Custom take-home trays available for gradual brightening. Both options supervised by Dr. Karamcheti.
             </p>
           </motion.div>
         </div>
@@ -737,7 +736,7 @@ export default function WhiteningContent() {
             className="space-y-4 text-lg text-white text-opacity-90"
           >
             <p>
-              <span className="font-semibold">Willis & Associates Family Dentistry</span>
+              <span className="font-semibold">Cville Dentist</span>
               <br />
               2375 Commonwealth Dr # A, Charlottesville, VA 22901
               <br />
@@ -754,7 +753,7 @@ export default function WhiteningContent() {
       <CTASection
         variant="gold"
         headline="Get a Brighter Smile Today"
-        subheadline="Professional teeth whitening delivers results drugstore strips can't. Schedule your whitening appointment with Dr. Karamcheti at Willis & Associates."
+        subheadline="Professional teeth whitening delivers results drugstore strips can't. Schedule your whitening appointment with Dr. Karamcheti at Cville Dentist."
         buttonText="Schedule Your Whitening Appointment"
         buttonLink="/contact"
       />

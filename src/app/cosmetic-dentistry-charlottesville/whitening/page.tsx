@@ -5,11 +5,11 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 export const metadata: Metadata = {
   title: "Teeth Whitening Charlottesville VA | Professional Results",
   description:
-    "Professional teeth whitening in Charlottesville — dramatically brighter results than drugstore strips. In-office and take-home options at Willis & Associates.",
+    "Professional teeth whitening in Charlottesville — dramatically brighter results than drugstore strips. In-office and take-home options at Cville Dentist.",
   openGraph: {
     title: "Teeth Whitening Charlottesville VA | Professional Results",
     description:
-      "Professional teeth whitening in Charlottesville — dramatically brighter results than drugstore strips. In-office and take-home options at Willis & Associates.",
+      "Professional teeth whitening in Charlottesville — dramatically brighter results than drugstore strips. In-office and take-home options at Cville Dentist.",
     type: "website",
     locale: "en_US",
   },
@@ -24,7 +24,7 @@ export default function Whitening() {
     <>
       <WhiteningContent />
       <SchemaMarkup
-        description="Professional teeth whitening in Charlottesville by Dr. Karamcheti at Willis & Associates. In-office and custom take-home whitening options with dramatic results."
+        description="Professional teeth whitening in Charlottesville by Dr. Karamcheti at Cville Dentist. In-office and custom take-home whitening options with dramatic results."
         customData={{
           "@type": ["Dentist", "LocalBusiness", "MedicalBusiness"],
           areaServed: {

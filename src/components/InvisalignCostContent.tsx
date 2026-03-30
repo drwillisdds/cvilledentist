@@ -5,7 +5,6 @@ import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { ChevronDown, Check } from "lucide-react";
-import ImagePlaceholder from "@/components/ImagePlaceholder";
 import CTASection from "@/components/CTASection";
 
 const containerVariants = {
@@ -48,7 +47,7 @@ const faqItems: FAQItem[] = [
     id: "exact_cost",
     question: "What is the exact cost of Invisalign in Charlottesville?",
     answer:
-      "Invisalign treatment costs between $3,500 and $6,500 at Willis & Associates, depending on your specific case complexity and treatment duration. Simple spacing or minor crowding may cost $3,500–$4,500. Complex bite issues or severe crowding may cost $5,000–$6,500. Dr. Karamcheti gives you an exact quote after examining your teeth and creating your treatment plan. No surprises.",
+      "Invisalign treatment costs between $3,500 and $6,500 at Cville Dentist, depending on your specific case complexity and treatment duration. Simple spacing or minor crowding may cost $3,500–$4,500. Complex bite issues or severe crowding may cost $5,000–$6,500. Dr. Karamcheti gives you an exact quote after examining your teeth and creating your treatment plan. No surprises.",
   },
   {
     id: "insurance",
@@ -195,7 +194,7 @@ export default function InvisalignCostContent() {
     {
       title: "Virginia Dental Club Discount",
       description:
-        "Members receive additional discounts on Invisalign treatment at Willis & Associates. Ask our team if you're a member.",
+        "Members receive additional discounts on Invisalign treatment at Cville Dentist. Ask our team if you're a member.",
       details: ["Member benefits apply", "Stacks with insurance", "Additional savings on cost"],
     },
     {
@@ -250,7 +249,7 @@ export default function InvisalignCostContent() {
           variants={itemVariants}
           className="font-body text-lg md:text-xl max-w-2xl mx-auto mb-8 text-[#e8e6e1]"
         >
-          Transparent pricing. Flexible financing. Insurance coverage. See what straight teeth cost at Willis & Associates.
+          Transparent pricing. Flexible financing. Insurance coverage. See what straight teeth cost at Cville Dentist.
         </motion.p>
         <motion.div variants={itemVariants}>
           <Link
@@ -278,7 +277,7 @@ export default function InvisalignCostContent() {
             Typical Cost: $3,500–$6,500
           </h2>
           <p className="font-body text-lg text-[#2a3d4d] leading-relaxed">
-            Invisalign treatment at Willis & Associates in Charlottesville typically costs $3,500 to $6,500 depending on case complexity. This includes all scans, aligners, and follow-up visits. Most dental insurance covers a portion. 0% financing and Virginia Dental Club discounts available.
+            Invisalign treatment at Cville Dentist in Charlottesville typically costs $3,500 to $6,500 depending on case complexity. This includes all scans, aligners, and follow-up visits. Most dental insurance covers a portion. 0% financing and Virginia Dental Club discounts available.
           </p>
         </motion.div>
       </motion.section>

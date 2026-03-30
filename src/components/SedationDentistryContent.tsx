@@ -111,7 +111,7 @@ export default function SedationDentistryContent() {
                 Sedation dentistry uses medication to help you relax during dental treatment. You remain conscious and able to respond to Dr. Karamcheti, but you'll feel calm, time passes quickly, and you may have little memory of the procedure afterward. It's a safe, evidence-based approach for anxious patients, those with sensitive gag reflexes, or anyone facing complex or lengthy treatment.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
-                At Willis & Associates Family Dentistry, Dr. Karamcheti carefully evaluates each patient's anxiety level, medical history, and treatment needs to recommend the right sedation option. Your safety and comfort are paramount.
+                At Cville Dentist, Dr. Karamcheti carefully evaluates each patient's anxiety level, medical history, and treatment needs to recommend the right sedation option. Your safety and comfort are paramount.
               </p>
             </div>
           </motion.div>

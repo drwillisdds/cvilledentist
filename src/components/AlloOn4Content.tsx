@@ -3,7 +3,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import ImagePlaceholder from "@/components/ImagePlaceholder";
+import { images } from "@/lib/images";
 import CTASection from "@/components/CTASection";
 
 const containerVariants = {
@@ -294,7 +294,7 @@ export default function AlloOn4Content() {
             transition={{ duration: 0.6, ease: [0, 0, 0.2, 1] as [number, number, number, number] }}
           >
             <p className="text-lg text-gray-800 leading-relaxed font-semibold mb-3">
-              All-on-4 dental implants replace a full arch of teeth using just four strategically placed implants. At Willis & Associates in Charlottesville, Dr. Karamcheti offers full-arch implant consultations. This permanent solution eliminates denture adhesives and slipping.
+              All-on-4 dental implants replace a full arch of teeth using just four strategically placed implants. At Cville Dentist in Charlottesville, Dr. Karamcheti offers full-arch implant consultations. This permanent solution eliminates denture adhesives and slipping.
             </p>
             <p className="text-gray-700 leading-relaxed">
               All-on-4 is a breakthrough restoration technique for patients missing most or all of their teeth. Instead of removing all your teeth and wearing a denture, or placing 8-10 individual implants, All-on-4 restores your entire arch with just 4 implants and a fixed or removable denture.
@@ -332,9 +332,10 @@ export default function AlloOn4Content() {
             className="grid md:grid-cols-2 gap-12 items-center"
           >
             <motion.div variants={itemVariants}>
-              <ImagePlaceholder
-                aspectRatio="4/3"
-                label="All-on-4 Implant Positioning Diagram"
+              <img
+                src={images.dentalChair}
+                alt="All-on-4 dental implant treatment at Charlottesville practice"
+                className="w-full h-full object-cover rounded-xl"
               />
             </motion.div>
 

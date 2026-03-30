@@ -5,11 +5,11 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 export const metadata: Metadata = {
   title: "Patient Reviews | Charlottesville Dentist | cvilledentist.com",
   description:
-    "Read real patient reviews for Willis & Associates Family Dentistry in Charlottesville. See why patients trust us for general, cosmetic, implant, and emergency dental care.",
+    "Read real patient reviews for Cville Dentist in Charlottesville. See why patients trust us for general, cosmetic, implant, and emergency dental care.",
   openGraph: {
     title: "Patient Reviews | Charlottesville Dentist | cvilledentist.com",
     description:
-      "Read real patient reviews for Willis & Associates Family Dentistry in Charlottesville. See why patients trust us for general, cosmetic, implant, and emergency dental care.",
+      "Read real patient reviews for Cville Dentist in Charlottesville. See why patients trust us for general, cosmetic, implant, and emergency dental care.",
     type: "website",
     locale: "en_US",
   },
@@ -23,7 +23,7 @@ export default function Reviews() {
     <>
       <ReviewsContent />
       <SchemaMarkup
-        description="Patient reviews for Willis & Associates Family Dentistry in Charlottesville, VA. Trusted dentist for family dental care, implants, Invisalign, and cosmetic dentistry."
+        description="Patient reviews for Cville Dentist in Charlottesville, VA. Trusted dentist for family dental care, implants, Invisalign, and cosmetic dentistry."
         customData={{
           "@type": ["LocalBusiness", "Dentist", "MedicalBusiness"],
           aggregateRating: {

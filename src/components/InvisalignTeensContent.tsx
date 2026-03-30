@@ -5,7 +5,6 @@ import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { ChevronDown, Check } from "lucide-react";
-import ImagePlaceholder from "@/components/ImagePlaceholder";
 import CTASection from "@/components/CTASection";
 
 const containerVariants = {
@@ -289,7 +288,7 @@ export default function InvisalignTeensContent() {
             Built for Teenagers
           </h2>
           <p className="font-body text-lg text-[#2a3d4d] leading-relaxed">
-            Invisalign Teen at Willis & Associates in Charlottesville works for teens ages 12 and up. Built-in compliance indicators help parents track wear time. No food restrictions, no wire adjustments, and safer for sports than metal braces. Your teen gets a straighter smile while keeping the freedom and confidence that matters to them.
+            Invisalign Teen at Cville Dentist in Charlottesville works for teens ages 12 and up. Built-in compliance indicators help parents track wear time. No food restrictions, no wire adjustments, and safer for sports than metal braces. Your teen gets a straighter smile while keeping the freedom and confidence that matters to them.
           </p>
         </motion.div>
       </motion.section>

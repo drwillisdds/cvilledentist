@@ -27,7 +27,7 @@ export default function GeneralDentistryPage() {
       jobTitle: "Dentist",
       worksFor: {
         "@type": "MedicalBusiness",
-        name: "Willis & Associates Family Dentistry",
+        name: "Cville Dentist",
         telephone: "(434) 973-5873",
       },
     },

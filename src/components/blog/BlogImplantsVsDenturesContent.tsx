@@ -405,8 +405,8 @@ export default function BlogImplantsVsDenturesContent() {
 
           <div className="bg-navy text-cream p-8 rounded-lg my-8">
             <p className="text-lg mb-4">
-              Ready to explore your tooth replacement options? At Willis &
-              Associates, we'll evaluate your specific situation and recommend what's
+              Ready to explore your tooth replacement options? At Cville
+              Dentist, we'll evaluate your specific situation and recommend what's
               best for your health, budget, and goals.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">

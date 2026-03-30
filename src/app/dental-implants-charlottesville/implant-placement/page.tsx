@@ -24,7 +24,7 @@ export default function ImplantPlacement() {
     <>
       <ImplantPlacementContent />
       <SchemaMarkup
-        description="Dr. Karamcheti places dental implants in-house at Willis & Associates in Charlottesville using computer-guided surgery. No referral to an oral surgeon needed. Most patients return to normal activities within 24-48 hours."
+        description="Dr. Karamcheti places dental implants in-house at Cville Dentist in Charlottesville using computer-guided surgery. No referral to an oral surgeon needed. Most patients return to normal activities within 24-48 hours."
       />
     </>
   );

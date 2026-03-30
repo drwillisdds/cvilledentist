@@ -3,10 +3,10 @@ import CleaningsExamsContent from "@/components/general-dentistry/CleaningsExams
 import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
-  title: "Dental Cleanings & Exams in Charlottesville | Willis & Associates",
+  title: "Dental Cleanings & Exams in Charlottesville | Cville Dentist",
   description: "Professional dental cleanings and comprehensive exams in Charlottesville. Digital X-rays, oral cancer screening, and personalized care by Dr. Sowmya Karamcheti.",
   openGraph: {
-    title: "Dental Cleanings & Exams in Charlottesville | Willis & Associates",
+    title: "Dental Cleanings & Exams in Charlottesville | Cville Dentist",
     description: "Professional dental cleanings and comprehensive exams in Charlottesville. Digital X-rays, oral cancer screening, and personalized care by Dr. Sowmya Karamcheti.",
     type: "website",
     url: "https://cvilledentist.com/general-dentistry-charlottesville/cleanings-exams",
@@ -53,7 +53,7 @@ export default function CleaningsExamsPage() {
               },
               {
                 "@type": "Question",
-                name: "Does Willis & Associates offer cleanings for children?",
+                name: "Does Cville Dentist offer cleanings for children?",
                 acceptedAnswer: {
                   "@type": "Answer",
                   text: "Yes. We provide gentle cleanings and exams for children, with a focus on building healthy habits early and making the experience comfortable and positive.",

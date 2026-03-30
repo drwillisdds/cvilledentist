@@ -5,11 +5,11 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 export const metadata: Metadata = {
   title: "Same-Day Dental Crowns in Charlottesville | CEREC Technology",
   description:
-    "Complete dental crown restoration in one visit using CEREC technology. No temporary crown, no second appointment. Willis & Associates in Charlottesville.",
+    "Complete dental crown restoration in one visit using CEREC technology. No temporary crown, no second appointment. Cville Dentist in Charlottesville.",
   openGraph: {
     title: "Same-Day Dental Crowns in Charlottesville | CEREC Technology",
     description:
-      "Get a permanent dental crown the same day it's prepared. Digital design, milled in-office at Willis & Associates Family Dentistry.",
+      "Get a permanent dental crown the same day it's prepared. Digital design, milled in-office at Cville Dentist.",
     type: "website",
     url: "https://cvilledentist.com/same-day-crowns",
   },
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 export default function SameDayCrownsPage() {
   return (
     <>
-      <SchemaMarkup description="Same-day CEREC crowns in Charlottesville. Complete restoration in one appointment with Dr. Karamcheti at Willis & Associates Family Dentistry." />
+      <SchemaMarkup description="Same-day CEREC crowns in Charlottesville. Complete restoration in one appointment with Dr. Karamcheti at Cville Dentist." />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{

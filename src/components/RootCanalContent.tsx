@@ -627,7 +627,7 @@ export default function RootCanalContent() {
             Schedule your crown appointment within 2-4 weeks of your root canal.
           </p>
           <p className="text-gray-300">
-            At Willis & Associates in Charlottesville, Dr. Karamcheti coordinates your root
+            At Cville Dentist in Charlottesville, Dr. Karamcheti coordinates your root
             canal and crown seamlessly, ensuring your tooth is fully restored and protected.
           </p>
         </motion.div>

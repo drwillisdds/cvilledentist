@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
+import { images } from "@/lib/images";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -24,8 +25,13 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           {/* Practice Info */}
           <div>
-            <h3 className="font-heading text-lg font-bold mb-4">
-              Willis & Associates
+            <h3 className="font-heading text-lg font-bold mb-4 flex items-center gap-2">
+              <img
+                src={images.logo}
+                alt="Cville Dentist"
+                className="h-8 w-auto"
+              />
+              Cville Dentist
             </h3>
             <div className="space-y-3 text-sm text-gray-300">
               <p>
@@ -141,8 +147,7 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-400">
             <p>
-              &copy; {currentYear} Willis & Associates Family Dentistry. All
-              rights reserved.
+              &copy; {currentYear} Cville Dentist. All rights reserved.
             </p>
             <div className="flex items-center gap-4">
               <Link href="/privacy-policy" className="hover:text-gold transition-colors">

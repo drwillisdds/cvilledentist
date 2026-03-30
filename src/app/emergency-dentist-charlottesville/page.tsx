@@ -42,7 +42,7 @@ export default function EmergencyDentistPage() {
                 name: "Should I go to the ER for a dental emergency?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "The emergency room can manage pain and prescribe antibiotics, but they don't fix teeth. Call Willis & Associates Family Dentistry first at (434) 973-5873 for same-day emergency appointments.",
+                  text: "The emergency room can manage pain and prescribe antibiotics, but they don't fix teeth. Call Cville Dentist first at (434) 973-5873 for same-day emergency appointments.",
                 },
               },
               {

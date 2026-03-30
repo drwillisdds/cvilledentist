@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useState } from "react";
 import { ChevronDown } from "lucide-react";
-import ImagePlaceholder from "@/components/ImagePlaceholder";
+import { images } from "@/lib/images";
 import CTASection from "@/components/CTASection";
 
 const containerVariants = {
@@ -154,7 +154,7 @@ export default function DentalImplantsContent() {
         <div className="max-w-4xl mx-auto">
           <p className="text-sm font-semibold text-[#c9a84c] uppercase tracking-wider mb-2">Quick Answer</p>
           <p className="text-lg md:text-xl text-[#1a2332] font-medium leading-relaxed">
-            A single dental implant at Willis & Associates in Charlottesville typically ranges from $3,000 to $5,000 — less than most patients expect, especially since Dr. Karamcheti places and restores implants in-house without referral to an oral surgeon. Virginia Dental Club members receive additional discounts, and 0% financing is available.
+            A single dental implant at Cville Dentist in Charlottesville typically ranges from $3,000 to $5,000 — less than most patients expect, especially since Dr. Karamcheti places and restores implants in-house without referral to an oral surgeon. Virginia Dental Club members receive additional discounts, and 0% financing is available.
           </p>
         </div>
       </section>
@@ -215,9 +215,10 @@ export default function DentalImplantsContent() {
               }
               transition={{ duration: 0.6 }}
             >
-              <ImagePlaceholder
-                aspectRatio="4/5"
-                label="Dental implant consultation at Willis & Associates, Charlottesville"
+              <img
+                src={images.dentalChair}
+                alt="Dental implant treatment chair at Charlottesville dental office"
+                className="w-full h-full object-cover rounded-xl"
               />
             </motion.div>
           </div>

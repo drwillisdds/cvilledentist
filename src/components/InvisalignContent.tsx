@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useState } from "react";
 import { ChevronDown } from "lucide-react";
-import ImagePlaceholder from "@/components/ImagePlaceholder";
+import { images } from "@/lib/images";
 import CTASection from "@/components/CTASection";
 
 const containerVariants = {
@@ -158,7 +158,7 @@ export default function InvisalignContent() {
         <div className="max-w-4xl mx-auto">
           <p className="text-sm font-semibold text-[#c9a84c] uppercase tracking-wider mb-2">Quick Answer</p>
           <p className="text-lg md:text-xl text-[#1a2332] font-medium leading-relaxed">
-            Invisalign treatment at Willis & Associates in Charlottesville typically ranges from $3,500 to $6,500 depending on case complexity. Dr. Karamcheti offers free smile assessments, and most dental insurance plans cover a portion of treatment. Virginia Dental Club members and patients using our 0% interest payment plans make clear aligners accessible at every budget.
+            Invisalign treatment at Cville Dentist in Charlottesville typically ranges from $3,500 to $6,500 depending on case complexity. Dr. Karamcheti offers free smile assessments, and most dental insurance plans cover a portion of treatment. Virginia Dental Club members and patients using our 0% interest payment plans make clear aligners accessible at every budget.
           </p>
         </div>
       </section>
@@ -219,9 +219,10 @@ export default function InvisalignContent() {
               }
               transition={{ duration: 0.6 }}
             >
-              <ImagePlaceholder
-                aspectRatio="4/5"
-                label="Invisalign consultation at Willis & Associates Charlottesville"
+              <img
+                src={images.invisalignService}
+                alt="Invisalign clear aligner treatment consultation at Charlottesville dental office"
+                className="w-full h-full object-cover rounded-xl"
               />
             </motion.div>
           </div>

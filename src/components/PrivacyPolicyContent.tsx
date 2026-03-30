@@ -39,7 +39,7 @@ export default function PrivacyPolicyContent() {
             transition={{ duration: 0.6, delay: 0.1, ease: easeValue }}
             className="text-xl text-white text-opacity-90"
           >
-            Willis & Associates Family Dentistry — Charlottesville, VA
+            Cville Dentist — Charlottesville, VA
             <br />
             Effective Date: March 2026
           </motion.p>
@@ -62,7 +62,7 @@ export default function PrivacyPolicyContent() {
             <div>
               <h2 className="heading-sm text-navy mb-4">Introduction</h2>
               <p>
-                Willis & Associates Family Dentistry ("we," "us," "our," or "the Practice") is
+                Cville Dentist ("we," "us," "our," or "the Practice") is
                 committed to protecting your privacy and ensuring you have a positive experience
                 on our website and in our office. This Privacy Policy explains our information
                 practices, how we collect and use your information, and your rights regarding
@@ -253,7 +253,7 @@ export default function PrivacyPolicyContent() {
               </p>
               <div className="space-y-2 text-gray-700">
                 <p>
-                  <span className="font-semibold">Willis & Associates Family Dentistry</span>
+                  <span className="font-semibold">Cville Dentist</span>
                   <br />
                   2375 Commonwealth Dr # A
                   <br />

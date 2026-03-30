@@ -338,7 +338,7 @@ export default function BlogInvisalignVsBracesContent() {
           <div className="bg-navy text-cream p-8 rounded-lg my-8">
             <p className="text-lg mb-4">
               Ready to explore your orthodontic options? Schedule a consultation
-              at Willis & Associates Family Dentistry. We'll assess your bite,
+              at Cville Dentist. We'll assess your bite,
               discuss your goals, and recommend the best path to your best smile.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">

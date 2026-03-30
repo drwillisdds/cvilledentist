@@ -257,7 +257,7 @@ export default function SameDayCrownsContent() {
             variants={itemVariants}
             className="font-heading text-4xl md:text-5xl font-bold text-[#faf9f7] mb-12 text-center"
           >
-            Why Choose Same-Day Crowns at Willis & Associates
+            Why Choose Same-Day Crowns at Cville Dentist
           </motion.h2>
 
           <motion.div
@@ -774,7 +774,7 @@ export default function SameDayCrownsContent() {
             variants={itemVariants}
             className="font-heading text-4xl md:text-5xl font-bold text-[#faf9f7] mb-12 text-center"
           >
-            Other Advanced Technology at Willis & Associates
+            Other Advanced Technology at Cville Dentist
           </motion.h2>
 
           <motion.div

@@ -24,7 +24,7 @@ export default function AlloOn4() {
     <>
       <AlloOn4Content />
       <SchemaMarkup
-        description="All-on-4 dental implants in Charlottesville replace a full arch of teeth using four strategically placed implants. Dr. Karamcheti offers full-arch implant consultations at Willis & Associates."
+        description="All-on-4 dental implants in Charlottesville replace a full arch of teeth using four strategically placed implants. Dr. Karamcheti offers full-arch implant consultations at Cville Dentist."
       />
     </>
   );

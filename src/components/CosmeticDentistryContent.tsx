@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import ImagePlaceholder from "@/components/ImagePlaceholder";
+import { images } from "@/lib/images";
 import CTASection from "@/components/CTASection";
 
 const containerVariants = {
@@ -155,7 +155,7 @@ export default function CosmeticDentistryContent() {
         <div className="max-w-4xl mx-auto">
           <p className="text-sm font-semibold text-[#c9a84c] uppercase tracking-wider mb-2">Quick Answer</p>
           <p className="text-lg md:text-xl text-[#1a2332] font-medium leading-relaxed">
-            Porcelain veneers at Willis & Associates in Charlottesville range from $1,200 to $2,500 per tooth. Dr. Karamcheti designs each veneer for a natural look — not the over-white, obvious appearance some patients fear. Dental bonding starts at $300 per tooth for a same-day improvement. Free smile consultations available.
+            Porcelain veneers at Cville Dentist in Charlottesville range from $1,200 to $2,500 per tooth. Dr. Karamcheti designs each veneer for a natural look — not the over-white, obvious appearance some patients fear. Dental bonding starts at $300 per tooth for a same-day improvement. Free smile consultations available.
           </p>
         </div>
       </section>
@@ -190,9 +190,10 @@ export default function CosmeticDentistryContent() {
               }
               transition={{ duration: 0.6 }}
             >
-              <ImagePlaceholder
-                aspectRatio="4/5"
-                label="Cosmetic smile consultation, Charlottesville"
+              <img
+                src={images.cosmeticSmile}
+                alt="Beautiful cosmetic smile transformation at Charlottesville dental office"
+                className="w-full h-full object-cover rounded-xl"
               />
             </motion.div>
           </div>

@@ -43,7 +43,7 @@ export default function DentalFillingsContent() {
             Tooth-Colored Fillings in Charlottesville
           </h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Fast, natural-looking cavity repair. Willis & Associates uses tooth-colored composite fillings that blend seamlessly with your teeth while providing durable, long-lasting protection against decay.
+            Fast, natural-looking cavity repair. Cville Dentist uses tooth-colored composite fillings that blend seamlessly with your teeth while providing durable, long-lasting protection against decay.
           </p>
         </motion.div>
       </section>
@@ -73,7 +73,7 @@ export default function DentalFillingsContent() {
           </h2>
 
           <p className="text-gray-700 leading-relaxed mb-8">
-            Willis & Associates uses tooth-colored composite fillings as the standard for all cavity treatment. Here is why composite is superior to the old silver amalgam fillings:
+            Cville Dentist uses tooth-colored composite fillings as the standard for all cavity treatment. Here is why composite is superior to the old silver amalgam fillings:
           </p>
 
           <div className="overflow-x-auto">
@@ -152,7 +152,7 @@ export default function DentalFillingsContent() {
           </h2>
 
           <p className="text-gray-700 leading-relaxed mb-8">
-            Early detection means smaller fillings and better outcomes. At Willis & Associates, we use advanced technology to catch cavities at their earliest stage.
+            Early detection means smaller fillings and better outcomes. At Cville Dentist, we use advanced technology to catch cavities at their earliest stage.
           </p>
 
           <div className="space-y-6">
@@ -240,7 +240,7 @@ export default function DentalFillingsContent() {
           variants={sectionVariants}
         >
           <h2 className="text-3xl font-bold font-heading mb-8 text-[#1a2332]">
-            The Filling Process at Willis & Associates
+            The Filling Process at Cville Dentist
           </h2>
 
           <p className="text-gray-700 leading-relaxed mb-8">
@@ -559,7 +559,7 @@ export default function DentalFillingsContent() {
           <div className="bg-white rounded-lg p-8 shadow-sm border border-gray-100">
             <h3 className="font-heading text-lg mb-6 text-[#1a2332]">Regular Checkups</h3>
             <p className="text-gray-700 leading-relaxed mb-4">
-              Visit Willis & Associates every six months for cleanings and exams. Dr. Karamcheti will check your filling for signs of wear, decay around the margins, or chipping. If a filling is failing, early replacement prevents the underlying tooth from developing decay.
+              Visit Cville Dentist every six months for cleanings and exams. Dr. Karamcheti will check your filling for signs of wear, decay around the margins, or chipping. If a filling is failing, early replacement prevents the underlying tooth from developing decay.
             </p>
             <p className="text-gray-700 leading-relaxed">
               A composite filling typically lasts 7-10 years. Some last longer with excellent care. When a filling fails, we can replace it or upgrade the tooth to a crown if needed.
@@ -736,7 +736,7 @@ export default function DentalFillingsContent() {
             Stop Cavities With a Tooth-Colored Filling
           </h2>
           <p className="text-lg mb-8 max-w-2xl mx-auto text-gray-200">
-            Willis & Associates offers fast, natural-looking composite fillings. Dr. Karamcheti will remove decay and restore your tooth to full strength in a single visit.
+            Cville Dentist offers fast, natural-looking composite fillings. Dr. Karamcheti will remove decay and restore your tooth to full strength in a single visit.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">

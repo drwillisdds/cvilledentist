@@ -495,7 +495,7 @@ export default function FluorideTreatmentContent() {
       {/* CTA Section */}
       <CTASection
         headline="Strengthen Your Teeth with Professional Fluoride"
-        subheadline="Dr. Karamcheti personalizes fluoride treatment to your cavity risk. Schedule your appointment at Willis & Associates in Charlottesville today."
+        subheadline="Dr. Karamcheti personalizes fluoride treatment to your cavity risk. Schedule your appointment at Cville Dentist in Charlottesville today."
         buttonText="Call (434) 973-5873"
         buttonLink="tel:4349735873"
       />

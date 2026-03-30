@@ -43,7 +43,7 @@ export default function CleaningsExamsContent() {
             Dental Cleanings & Exams in Charlottesville
           </h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Prevention is the foundation of lifelong oral health. At Willis & Associates Family Dentistry, every cleaning and exam is an opportunity to detect problems early and keep your teeth and gums thriving.
+            Prevention is the foundation of lifelong oral health. At Cville Dentist, every cleaning and exam is an opportunity to detect problems early and keep your teeth and gums thriving.
           </p>
         </motion.div>
       </section>
@@ -369,7 +369,7 @@ export default function CleaningsExamsContent() {
         </motion.div>
       </section>
 
-      {/* What to Expect at Willis & Associates */}
+      {/* What to Expect at Cville Dentist */}
       <section ref={ref5} className="px-4 sm:px-6 lg:px-8 mb-20">
         <motion.div
           className="max-w-4xl mx-auto"
@@ -378,7 +378,7 @@ export default function CleaningsExamsContent() {
           variants={sectionVariants}
         >
           <h2 className="text-3xl font-bold font-heading mb-8 text-[#1a2332]">
-            What to Expect at Willis & Associates
+            What to Expect at Cville Dentist
           </h2>
 
           <div className="bg-white rounded-lg p-8 shadow-sm border border-gray-100 mb-8">
@@ -595,7 +595,7 @@ export default function CleaningsExamsContent() {
             Your Smile Deserves Professional Care
           </h2>
           <p className="text-lg mb-8 max-w-2xl mx-auto text-gray-200">
-            Willis & Associates Family Dentistry offers gentle, comprehensive cleanings and exams in Charlottesville. Schedule your appointment today and start investing in lifelong oral health.
+            Cville Dentist offers gentle, comprehensive cleanings and exams in Charlottesville. Schedule your appointment today and start investing in lifelong oral health.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">

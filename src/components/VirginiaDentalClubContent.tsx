@@ -190,7 +190,7 @@ export default function VirginiaDentalClubContent() {
             >
               <ImagePlaceholder
                 aspectRatio="4/5"
-                label="Virginia Dental Club membership — Willis & Associates Charlottesville"
+                label="Virginia Dental Club membership — Cville Dentist Charlottesville"
               />
             </motion.div>
           </div>

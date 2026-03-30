@@ -3,7 +3,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import ImagePlaceholder from "@/components/ImagePlaceholder";
 import CTASection from "@/components/CTASection";
 
 const containerVariants = {
@@ -276,7 +275,7 @@ export default function ImplantPlacementContent() {
             transition={{ duration: 0.6, ease: [0, 0, 0.2, 1] as [number, number, number, number] }}
           >
             <p className="text-lg text-gray-800 leading-relaxed font-semibold mb-3">
-              Dr. Karamcheti places dental implants in-house at Willis & Associates in Charlottesville using computer-guided surgery for precise positioning. No referral to an oral surgeon needed. Most patients return to normal activities within 24-48 hours.
+              Dr. Karamcheti places dental implants in-house at Cville Dentist in Charlottesville using computer-guided surgery for precise positioning. No referral to an oral surgeon needed. Most patients return to normal activities within 24-48 hours.
             </p>
             <p className="text-gray-700 leading-relaxed">
               The surgical phase is the first step in your implant journey. Dr. Karamcheti uses 3D imaging and guided surgical technology to place your implant with millimeter precision. Then your implant heals for 3-6 months while it integrates with your bone. Finally, she restores it with a custom crown.
@@ -577,7 +576,7 @@ export default function ImplantPlacementContent() {
       <CTASection
         variant="gold"
         headline="Ready to Restore Your Smile?"
-        subheadline="Schedule a free implant consultation with Dr. Karamcheti at Willis & Associates in Charlottesville."
+        subheadline="Schedule a free implant consultation with Dr. Karamcheti at Cville Dentist in Charlottesville."
         buttonText="Book Your Free Consultation"
         buttonLink="/new-patients"
       />

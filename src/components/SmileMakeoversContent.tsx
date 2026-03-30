@@ -3,7 +3,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import ImagePlaceholder from "@/components/ImagePlaceholder";
+import { images } from "@/lib/images";
 import CTASection from "@/components/CTASection";
 
 const containerVariants = {
@@ -238,7 +238,7 @@ export default function SmileMakeoversContent() {
               Quick Answer
             </p>
             <p className="text-lg md:text-xl text-[#1a2332] font-medium leading-relaxed">
-              A smile makeover at Willis & Associates in Charlottesville combines multiple cosmetic procedures — veneers, bonding, whitening, and crowns — into one custom treatment plan. Dr. Karamcheti designs every makeover around your face shape, skin tone, and goals. Cost and timeline vary based on your specific plan.
+              A smile makeover at Cville Dentist in Charlottesville combines multiple cosmetic procedures — veneers, bonding, whitening, and crowns — into one custom treatment plan. Dr. Karamcheti designs every makeover around your face shape, skin tone, and goals. Cost and timeline vary based on your specific plan.
             </p>
           </motion.div>
         </div>
@@ -326,9 +326,10 @@ export default function SmileMakeoversContent() {
               animate={whatInView ? { opacity: 1, x: 0 } : { opacity: 0, x: 20 }}
               transition={{ duration: 0.6, ease: [0, 0, 0.2, 1] as [number, number, number, number] }}
             >
-              <ImagePlaceholder
-                aspectRatio="4/5"
-                label="Smile makeover design consultation"
+              <img
+                src={images.cosmeticSmile}
+                alt="Beautiful smile makeover transformation at Charlottesville dental office"
+                className="w-full h-full object-cover rounded-xl"
               />
             </motion.div>
           </div>
@@ -694,7 +695,7 @@ export default function SmileMakeoversContent() {
             className="space-y-4 text-lg text-white text-opacity-90"
           >
             <p>
-              <span className="font-semibold">Willis & Associates Family Dentistry</span>
+              <span className="font-semibold">Cville Dentist</span>
               <br />
               2375 Commonwealth Dr # A, Charlottesville, VA 22901
               <br />

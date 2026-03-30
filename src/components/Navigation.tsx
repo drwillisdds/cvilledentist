@@ -2,8 +2,9 @@
 
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
-import { Menu, X, ChevronDown, ChevronRight } from "lucide-react";
+import { Menu, X, ChevronDown, Phone } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import { images } from "@/lib/images";
 
 interface ServiceCategory {
   label: string;
@@ -143,12 +144,11 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <Link href="/" className="flex-shrink-0">
-            <div className="font-heading text-2xl font-bold text-navy">
-              Willis & Associates
-            </div>
-            <div className="text-xs text-gold tracking-widest">
-              FAMILY DENTISTRY
-            </div>
+            <img
+              src={images.logo}
+              alt="Cville Dentist"
+              className="h-12 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}
@@ -254,11 +254,12 @@ export default function Navigation() {
           </div>
 
           {/* Desktop CTA + Phone */}
-          <div className="hidden xl:flex items-center gap-4">
+          <div className="hidden xl:flex items-center gap-6">
             <a
               href="tel:(434)973-5873"
-              className="text-xs text-navy hover:text-gold transition-colors"
+              className="flex items-center gap-2 text-lg font-bold text-navy hover:text-gold transition-colors"
             >
+              <Phone size={20} />
               (434) 973-5873
             </a>
             <Link

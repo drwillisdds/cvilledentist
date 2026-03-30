@@ -5,11 +5,11 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 export const metadata: Metadata = {
   title: "Sedation Dentistry in Charlottesville VA | Anxiety-Free Dental Care",
   description:
-    "Overcome dental anxiety with sedation dentistry at Willis & Associates. Nitrous oxide, oral sedation, and professional comfort protocols from Dr. Karamcheti.",
+    "Overcome dental anxiety with sedation dentistry at Cville Dentist. Nitrous oxide, oral sedation, and professional comfort protocols from Dr. Karamcheti.",
   openGraph: {
     title: "Sedation Dentistry in Charlottesville VA | Anxiety-Free Dental Care",
     description:
-      "Overcome dental anxiety with sedation dentistry at Willis & Associates. Nitrous oxide, oral sedation, and professional comfort protocols from Dr. Karamcheti.",
+      "Overcome dental anxiety with sedation dentistry at Cville Dentist. Nitrous oxide, oral sedation, and professional comfort protocols from Dr. Karamcheti.",
     type: "website",
     locale: "en_US",
   },

@@ -3,11 +3,11 @@ import RootCanalContent from "@/components/RootCanalContent";
 import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
-  title: "Root Canal Treatment in Charlottesville VA | Willis & Associates",
+  title: "Root Canal Treatment in Charlottesville VA | Cville Dentist",
   description:
     "Root canal treatment by Dr. Karamcheti in Charlottesville. Modern, comfortable procedure to save your tooth. Digital imaging and pain-free treatment.",
   openGraph: {
-    title: "Root Canal Treatment in Charlottesville VA | Willis & Associates",
+    title: "Root Canal Treatment in Charlottesville VA | Cville Dentist",
     description:
       "Root canal treatment by Dr. Karamcheti in Charlottesville. Modern, comfortable procedure to save your tooth. Digital imaging and pain-free treatment.",
     type: "website",

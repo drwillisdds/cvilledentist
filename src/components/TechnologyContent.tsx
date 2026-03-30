@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import ImagePlaceholder from "@/components/ImagePlaceholder";
+import { images } from "@/lib/images";
 import CTASection from "@/components/CTASection";
 
 const containerVariants = {
@@ -175,7 +175,7 @@ export default function TechnologyContent() {
             transition={{ duration: 0.6, ease: [0, 0, 0.2, 1] as [number, number, number, number] }}
           >
             <p className="text-lg text-gray-800 leading-relaxed font-semibold mb-3">
-              Willis & Associates uses digital X-rays (80% less radiation than film), iTero digital scanners for impression-free treatment planning, intraoral cameras, and computer-guided implant surgery. Located at 2375 Commonwealth Dr in Charlottesville.
+              Cville Dentist uses digital X-rays (80% less radiation than film), iTero digital scanners for impression-free treatment planning, intraoral cameras, and computer-guided implant surgery. Located at 2375 Commonwealth Dr in Charlottesville.
             </p>
             <p className="text-gray-700 leading-relaxed">
               Every technology we invest in has one purpose: make your experience more comfortable and your outcomes more predictable. We don't use technology for technology's sake—only tools that genuinely improve patient care.
@@ -300,10 +300,10 @@ export default function TechnologyContent() {
             </motion.div>
 
             <motion.div variants={itemVariants}>
-              <ImagePlaceholder
-                aspectRatio="3/4"
-                label="Computer-Guided Implant Surgery Process"
-                className="h-full"
+              <img
+                src={images.officeInterior2}
+                alt="Advanced computer-guided implant surgery technology at Charlottesville dental office"
+                className="w-full h-full object-cover rounded-xl"
               />
             </motion.div>
           </motion.div>
@@ -365,7 +365,7 @@ export default function TechnologyContent() {
       <CTASection
         variant="gold"
         headline="Experience Advanced Dental Care"
-        subheadline="Schedule a consultation at Willis & Associates in Charlottesville. See how modern technology improves comfort and results."
+        subheadline="Schedule a consultation at Cville Dentist in Charlottesville. See how modern technology improves comfort and results."
         buttonText="Book Your Consultation"
         buttonLink="/new-patients"
       />

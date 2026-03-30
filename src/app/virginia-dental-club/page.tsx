@@ -23,7 +23,7 @@ export default function VirginiaDentalClub() {
     <>
       <VirginiaDentalClubContent />
       <SchemaMarkup
-        description="Virginia Dental Club membership plan at Willis & Associates Family Dentistry in Charlottesville. Affordable dental coverage without insurance, including cleanings, exams, X-rays, and treatment discounts."
+        description="Virginia Dental Club membership plan at Cville Dentist in Charlottesville. Affordable dental coverage without insurance, including cleanings, exams, X-rays, and treatment discounts."
         customData={{
           "@type": ["Dentist", "LocalBusiness", "MedicalBusiness"],
           areaServed: {

@@ -3,10 +3,10 @@ import DentalFillingsContent from "@/components/general-dentistry/DentalFillings
 import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
-  title: "Tooth-Colored Fillings in Charlottesville | Willis & Associates",
+  title: "Tooth-Colored Fillings in Charlottesville | Cville Dentist",
   description: "Natural-looking tooth-colored fillings for cavities. Composite resin vs amalgam explained. Expert cavity treatment by Dr. Sowmya Karamcheti in Charlottesville VA.",
   openGraph: {
-    title: "Tooth-Colored Fillings in Charlottesville | Willis & Associates",
+    title: "Tooth-Colored Fillings in Charlottesville | Cville Dentist",
     description: "Natural-looking tooth-colored fillings for cavities. Composite resin vs amalgam explained. Expert cavity treatment by Dr. Sowmya Karamcheti in Charlottesville VA.",
     type: "website",
     url: "https://cvilledentist.com/general-dentistry-charlottesville/dental-fillings",
@@ -37,7 +37,7 @@ export default function DentalFillingsPage() {
               },
               {
                 "@type": "Question",
-                name: "Why does Willis & Associates use tooth-colored fillings?",
+                name: "Why does Cville Dentist use tooth-colored fillings?",
                 acceptedAnswer: {
                   "@type": "Answer",
                   text: "Tooth-colored composite fillings are esthetic, durable, require less tooth removal than amalgam, and bond directly to the tooth for a strong repair. They are the standard of care for cavity treatment.",

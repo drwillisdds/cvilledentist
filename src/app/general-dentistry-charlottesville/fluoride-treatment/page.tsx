@@ -3,10 +3,10 @@ import FluorideTreatmentContent from "@/components/general-dentistry/FluorideTre
 import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
-  title: "Professional Fluoride Treatments in Charlottesville | Willis & Associates",
+  title: "Professional Fluoride Treatments in Charlottesville | Cville Dentist",
   description: "Professional fluoride treatments for cavity prevention in Charlottesville. Stronger than toothpaste, safe for all ages. Dr. Sowmya Karamcheti.",
   openGraph: {
-    title: "Professional Fluoride Treatments in Charlottesville | Willis & Associates",
+    title: "Professional Fluoride Treatments in Charlottesville | Cville Dentist",
     description: "Professional fluoride treatments for cavity prevention. Safe for all ages, more effective than store-bought fluoride.",
     type: "website",
     url: "https://cvilledentist.com/general-dentistry-charlottesville/fluoride-treatment",

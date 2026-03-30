@@ -3,7 +3,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import ImagePlaceholder from "@/components/ImagePlaceholder";
 import CTASection from "@/components/CTASection";
 
 const containerVariants = {
@@ -187,7 +186,7 @@ export default function ComfortContent() {
             transition={{ duration: 0.6, ease: [0, 0, 0.2, 1] as [number, number, number, number] }}
           >
             <p className="text-lg text-gray-800 leading-relaxed font-semibold mb-3">
-              Dr. Karamcheti at Willis & Associates in Charlottesville specializes in treating anxious patients. Her calm, patient-paced approach has helped patients who avoided the dentist for years return to regular care. Comfort amenities and sedation options available.
+              Dr. Karamcheti at Cville Dentist in Charlottesville specializes in treating anxious patients. Her calm, patient-paced approach has helped patients who avoided the dentist for years return to regular care. Comfort amenities and sedation options available.
             </p>
             <p className="text-gray-700 leading-relaxed">
               If you've dreaded the dentist, avoided appointments for years, or felt panic during past visits—you're not alone, and you're not broken. Dr. Karamcheti has helped hundreds of nervous patients rediscover that dental care doesn't have to be frightening.

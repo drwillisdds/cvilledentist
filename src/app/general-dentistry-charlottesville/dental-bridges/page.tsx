@@ -3,10 +3,10 @@ import DentalBridgesContent from "@/components/general-dentistry/DentalBridgesCo
 import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
-  title: "Dental Bridges in Charlottesville VA | Willis & Associates",
+  title: "Dental Bridges in Charlottesville VA | Cville Dentist",
   description: "Replace missing teeth with fixed dental bridges. Traditional, cantilever, Maryland, and implant-supported options. Expert care by Dr. Sowmya Karamcheti in Charlottesville.",
   openGraph: {
-    title: "Dental Bridges in Charlottesville VA | Willis & Associates",
+    title: "Dental Bridges in Charlottesville VA | Cville Dentist",
     description: "Replace missing teeth with fixed dental bridges. Traditional, cantilever, Maryland, and implant-supported options. Expert care by Dr. Sowmya Karamcheti in Charlottesville.",
     type: "website",
     url: "https://cvilledentist.com/general-dentistry-charlottesville/dental-bridges",
@@ -37,7 +37,7 @@ export default function DentalBridgesPage() {
               },
               {
                 "@type": "Question",
-                name: "What types of bridges does Willis & Associates offer?",
+                name: "What types of bridges does Cville Dentist offer?",
                 acceptedAnswer: {
                   "@type": "Answer",
                   text: "We offer traditional bridges (held by crowns on neighboring teeth), cantilever bridges (supported on one side), Maryland bridges (bonded to the back of adjacent teeth), and implant-supported bridges (anchored by dental implants).",

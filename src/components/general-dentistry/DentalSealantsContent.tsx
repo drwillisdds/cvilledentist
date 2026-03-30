@@ -156,7 +156,7 @@ export default function DentalSealantsContent() {
     {
       question: "Will my insurance cover sealants?",
       answer:
-        "Many insurance plans cover sealants for children, often at little or no cost. Coverage for adults varies. Our team at Willis & Associates can check your specific plan and discuss costs. Even if insurance doesn't cover them, the cost is low compared to treating cavities.",
+        "Many insurance plans cover sealants for children, often at little or no cost. Coverage for adults varies. Our team at Cville Dentist can check your specific plan and discuss costs. Even if insurance doesn't cover them, the cost is low compared to treating cavities.",
     },
     {
       question: "What happens if a sealant chips?",
@@ -362,7 +362,7 @@ export default function DentalSealantsContent() {
             variants={itemVariants}
             className="font-heading text-3xl sm:text-4xl text-navy mb-12"
           >
-            Why Choose Sealants at Willis & Associates?
+            Why Choose Sealants at Cville Dentist?
           </motion.h2>
 
           <div className="grid sm:grid-cols-2 gap-6">
@@ -486,7 +486,7 @@ export default function DentalSealantsContent() {
       {/* CTA Section */}
       <CTASection
         headline="Schedule Your Sealant Appointment"
-        subheadline="Dr. Karamcheti is ready to protect your child's smile with quick, effective sealants. Call Willis & Associates today to book an appointment."
+        subheadline="Dr. Karamcheti is ready to protect your child's smile with quick, effective sealants. Call Cville Dentist today to book an appointment."
         buttonText="Call (434) 973-5873"
         buttonLink="tel:4349735873"
       />

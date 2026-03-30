@@ -43,7 +43,7 @@ export default function DentalCrownsContent() {
             Dental Crowns in Charlottesville VA
           </h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Restore strength, function, and beauty to damaged teeth with custom crowns crafted to match your natural smile. Willis & Associates offers durable, natural-looking crowns and same-day crown technology.
+            Restore strength, function, and beauty to damaged teeth with custom crowns crafted to match your natural smile. Cville Dentist offers durable, natural-looking crowns and same-day crown technology.
           </p>
         </motion.div>
       </section>
@@ -294,7 +294,7 @@ export default function DentalCrownsContent() {
         </motion.div>
       </section>
 
-      {/* The Crown Process at Willis & Associates */}
+      {/* The Crown Process at Cville Dentist */}
       <section ref={ref3} className="px-4 sm:px-6 lg:px-8 mb-20">
         <motion.div
           className="max-w-4xl mx-auto"
@@ -303,7 +303,7 @@ export default function DentalCrownsContent() {
           variants={sectionVariants}
         >
           <h2 className="text-3xl font-bold font-heading mb-8 text-[#1a2332]">
-            The Crown Process at Willis & Associates
+            The Crown Process at Cville Dentist
           </h2>
 
           <p className="text-gray-700 leading-relaxed mb-8">
@@ -427,7 +427,7 @@ export default function DentalCrownsContent() {
 
           <div className="bg-[#f5f3f0] p-8 rounded-lg">
             <p className="text-gray-700 leading-relaxed mb-6">
-              Willis & Associates offers same-day crowns using advanced CEREC technology (Chairside Economical Restoration of Esthetic Ceramics). A single appointment replaces the two-visit process:
+              Cville Dentist offers same-day crowns using advanced CEREC technology (Chairside Economical Restoration of Esthetic Ceramics). A single appointment replaces the two-visit process:
             </p>
 
             <div className="space-y-4">
@@ -577,7 +577,7 @@ export default function DentalCrownsContent() {
           <div className="bg-white rounded-lg p-8 shadow-sm border border-gray-100">
             <h3 className="font-heading text-lg mb-6 text-[#1a2332]">Regular Checkups</h3>
             <p className="text-gray-700 leading-relaxed mb-4">
-              Visit Willis & Associates for cleanings and exams every six months. Dr. Karamcheti will inspect your crown for any signs of wear, loosening, or failure. She will also check the tooth below the crown on X-rays to ensure the underlying tooth remains healthy.
+              Visit Cville Dentist for cleanings and exams every six months. Dr. Karamcheti will inspect your crown for any signs of wear, loosening, or failure. She will also check the tooth below the crown on X-rays to ensure the underlying tooth remains healthy.
             </p>
             <p className="text-gray-700 leading-relaxed">
               If your crown cracks, chips, or becomes loose, contact us right away. Early intervention can often prevent more costly problems.
@@ -794,7 +794,7 @@ export default function DentalCrownsContent() {
             Restore Your Smile With a Custom Crown
           </h2>
           <p className="text-lg mb-8 max-w-2xl mx-auto text-gray-200">
-            Willis & Associates offers expert crown placement with same-day CEREC technology and beautiful lab-made crowns. Dr. Karamcheti will help you choose the perfect material for your tooth.
+            Cville Dentist offers expert crown placement with same-day CEREC technology and beautiful lab-made crowns. Dr. Karamcheti will help you choose the perfect material for your tooth.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">

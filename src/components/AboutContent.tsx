@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import ImagePlaceholder from "@/components/ImagePlaceholder";
+import { images } from "@/lib/images";
 import CTASection from "@/components/CTASection";
 
 const containerVariants = {
@@ -89,9 +89,10 @@ export default function AboutContent() {
               animate={bioInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -20 }}
               transition={{ duration: 0.6 }}
             >
-              <ImagePlaceholder
-                aspectRatio="3/4"
-                label="Dr. Sowmya Karamcheti, DDS, MHA — Lead Dentist, Charlottesville"
+              <img
+                src={images.drKaramcheti}
+                alt="Dr. Sowmya Karamcheti, DDS, MHA — Lead Dentist in Charlottesville, Virginia"
+                className="w-full h-full object-cover rounded-xl"
               />
             </motion.div>
 
@@ -230,17 +231,33 @@ export default function AboutContent() {
             animate={teamInView ? "visible" : "hidden"}
             className="grid md:grid-cols-3 gap-8"
           >
-            {[1, 2, 3].map((i) => (
-              <motion.div key={i} variants={itemVariants} className="text-center">
-                <ImagePlaceholder
-                  aspectRatio="1/1"
-                  label={`Team Member ${i}`}
-                  className="mb-6 rounded-lg"
-                />
-                <h3 className="heading-sm text-navy mb-2">Team Member Name</h3>
-                <p className="text-gray-700">Role & Credentials</p>
-              </motion.div>
-            ))}
+            <motion.div variants={itemVariants} className="text-center">
+              <img
+                src={images.drKaramcheti}
+                alt="Dr. Sowmya Karamcheti, dentist in Charlottesville"
+                className="w-full h-full object-cover rounded-xl mb-6"
+              />
+              <h3 className="heading-sm text-navy mb-2">Dr. Sowmya Karamcheti</h3>
+              <p className="text-gray-700">DDS, MHA — Lead Dentist</p>
+            </motion.div>
+            <motion.div variants={itemVariants} className="text-center">
+              <img
+                src={images.drWillis}
+                alt="Dr. James Willis, dentist in Charlottesville"
+                className="w-full h-full object-cover rounded-xl mb-6"
+              />
+              <h3 className="heading-sm text-navy mb-2">Dr. James Willis</h3>
+              <p className="text-gray-700">DDS — Dentist</p>
+            </motion.div>
+            <motion.div variants={itemVariants} className="text-center">
+              <img
+                src={images.officeInterior1}
+                alt="Cville Dentist office interior in Charlottesville"
+                className="w-full h-full object-cover rounded-xl mb-6"
+              />
+              <h3 className="heading-sm text-navy mb-2">Our Practice</h3>
+              <p className="text-gray-700">Modern Dental Care</p>
+            </motion.div>
           </motion.div>
         </div>
       </section>

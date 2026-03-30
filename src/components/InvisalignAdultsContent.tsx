@@ -5,7 +5,6 @@ import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { ChevronDown } from "lucide-react";
-import ImagePlaceholder from "@/components/ImagePlaceholder";
 import CTASection from "@/components/CTASection";
 
 const containerVariants = {
@@ -214,7 +213,7 @@ export default function InvisalignAdultsContent() {
       number: "5",
       title: "Regular Check-Ins",
       description:
-        "Return to Willis & Associates every 6–8 weeks for progress monitoring. Dr. Karamcheti ensures treatment is on track and addresses any questions. These visits are brief.",
+        "Return to Cville Dentist every 6–8 weeks for progress monitoring. Dr. Karamcheti ensures treatment is on track and addresses any questions. These visits are brief.",
     },
     {
       number: "6",
@@ -272,7 +271,7 @@ export default function InvisalignAdultsContent() {
             No Age Limit
           </h2>
           <p className="font-body text-lg text-[#2a3d4d] leading-relaxed">
-            There is no age limit for Invisalign. Dr. Karamcheti at Willis & Associates in Charlottesville treats adults from their 20s through their 70s with clear aligners. Most adult cases take 6–18 months. Your teeth respond to gentle pressure at any age. Straight teeth are within reach no matter when you decide to pursue them. Free smile assessments available.
+            There is no age limit for Invisalign. Dr. Karamcheti at Cville Dentist in Charlottesville treats adults from their 20s through their 70s with clear aligners. Most adult cases take 6–18 months. Your teeth respond to gentle pressure at any age. Straight teeth are within reach no matter when you decide to pursue them. Free smile assessments available.
           </p>
         </motion.div>
       </motion.section>

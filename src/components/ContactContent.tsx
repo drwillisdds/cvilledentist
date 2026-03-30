@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import { images } from "@/lib/images";
 import CTASection from "@/components/CTASection";
 
 const containerVariants = {
@@ -98,7 +99,7 @@ export default function ContactContent() {
             transition={{ duration: 0.6 }}
             className="heading-lg mb-6"
           >
-            Contact Willis & Associates Family Dentistry — Charlottesville
+            Contact Cville Dentist — Charlottesville
           </motion.h1>
 
           <motion.p
@@ -492,39 +493,26 @@ export default function ContactContent() {
             animate={mapInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
             transition={{ duration: 0.6 }}
           >
-            {/* Map Placeholder */}
-            <div className="relative w-full bg-gradient-to-br from-gray-300 to-gray-400 rounded-lg overflow-hidden mb-6"
-              style={{ paddingBottom: "42.86%" }}
-            >
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="text-center">
-                  <svg
-                    className="w-16 h-16 text-gray-500 mx-auto mb-4"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={1.5}
-                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-                    />
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={1.5}
-                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-                    />
-                  </svg>
-                  <div className="text-gray-600 font-semibold">
-                    Google Maps Embed
-                  </div>
-                  <div className="text-gray-500 text-sm mt-2">
-                    2375 Commonwealth Dr # A, Charlottesville, VA 22901
-                  </div>
-                </div>
-              </div>
+            {/* Google Maps Embed */}
+            <div className="w-full rounded-lg overflow-hidden mb-8 shadow-lg">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3142.5!2d-78.5!3d38.03!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b3862d2c5ee3a5%3A0x1234!2s2375+Commonwealth+Dr+%23+A%2C+Charlottesville%2C+VA+22901!5e0!3m2!1sen!2sus!4v1711234567890!5m2!1sen!2sus"
+                width="100%"
+                height="400"
+                style={{ border: 0 }}
+                allowFullScreen={true}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+
+            {/* Office Photo */}
+            <div className="mb-8">
+              <img
+                src={images.facility1}
+                alt="Cville Dentist office exterior in Charlottesville, Virginia at 2375 Commonwealth Drive"
+                className="w-full h-full object-cover rounded-lg shadow-lg"
+              />
             </div>
 
             {/* Map Description */}

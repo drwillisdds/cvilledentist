@@ -24,7 +24,7 @@ export default function SmileMakeovers() {
     <>
       <SmileMakeoversContent />
       <SchemaMarkup
-        description="Smile makeovers in Charlottesville by Dr. Karamcheti at Willis & Associates. Custom treatment plans combining veneers, bonding, whitening, and more for complete smile transformations."
+        description="Smile makeovers in Charlottesville by Dr. Karamcheti at Cville Dentist. Custom treatment plans combining veneers, bonding, whitening, and more for complete smile transformations."
         customData={{
           "@type": ["Dentist", "LocalBusiness", "MedicalBusiness"],
           areaServed: {

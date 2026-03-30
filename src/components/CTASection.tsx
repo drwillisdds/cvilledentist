@@ -14,7 +14,7 @@ interface CTASectionProps {
 
 export default function CTASection({
   headline = "Ready to Schedule Your Visit?",
-  subheadline = "New patients are always welcome at Willis & Associates Family Dentistry in Charlottesville.",
+  subheadline = "New patients are always welcome at Cville Dentist in Charlottesville.",
   buttonText = "Book Appointment",
   buttonLink = "/contact",
   variant = "navy",

@@ -5,11 +5,11 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 export const metadata: Metadata = {
   title: "Dental Technology Charlottesville | Digital X-Rays & iTero",
   description:
-    "Advanced dental technology at Willis & Associates in Charlottesville. Digital X-rays, iTero scanners, guided implant planning — modern precision for better outcomes.",
+    "Advanced dental technology at Cville Dentist in Charlottesville. Digital X-rays, iTero scanners, guided implant planning — modern precision for better outcomes.",
   openGraph: {
     title: "Dental Technology Charlottesville | Digital X-Rays & iTero",
     description:
-      "Advanced dental technology at Willis & Associates in Charlottesville. Digital X-rays, iTero scanners, guided implant planning — modern precision for better outcomes.",
+      "Advanced dental technology at Cville Dentist in Charlottesville. Digital X-rays, iTero scanners, guided implant planning — modern precision for better outcomes.",
     type: "website",
     locale: "en_US",
   },
@@ -23,7 +23,7 @@ export default function Technology() {
     <>
       <TechnologyContent />
       <SchemaMarkup
-        description="Willis & Associates in Charlottesville uses advanced dental technology including digital X-rays (80% less radiation), iTero digital scanners, intraoral cameras, and computer-guided implant surgery for precise outcomes."
+        description="Cville Dentist in Charlottesville uses advanced dental technology including digital X-rays (80% less radiation), iTero digital scanners, intraoral cameras, and computer-guided implant surgery for precise outcomes."
       />
     </>
   );

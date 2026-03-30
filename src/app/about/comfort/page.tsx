@@ -23,7 +23,7 @@ export default function Comfort() {
     <>
       <ComfortContent />
       <SchemaMarkup
-        description="Willis & Associates in Charlottesville specializes in treating anxious patients. Dr. Karamcheti offers calm, patient-paced care, sedation options, and a comfortable environment for nervous patients."
+        description="Cville Dentist in Charlottesville specializes in treating anxious patients. Dr. Karamcheti offers calm, patient-paced care, sedation options, and a comfortable environment for nervous patients."
       />
     </>
   );

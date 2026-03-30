@@ -77,7 +77,7 @@ export default function BlogImplantsCostContent() {
             oral health, but many patients in Charlottesville hesitate due to
             cost concerns. I understand—tooth replacement is a major decision.
             Let's break down exactly what you can expect to invest in a dental
-            implant solution at Willis & Associates Family Dentistry and explore
+            implant solution at Cville Dentist and explore
             how to make this transformative treatment affordable.
           </p>
 
@@ -195,7 +195,7 @@ export default function BlogImplantsCostContent() {
             </li>
           </ul>
           <p className="text-navy/80 leading-relaxed mb-6">
-            At Willis & Associates, we'll help you navigate your coverage and
+            At Cville Dentist, we'll help you navigate your coverage and
             maximize any benefits available.
           </p>
 
@@ -287,7 +287,7 @@ export default function BlogImplantsCostContent() {
             Your Investment in Lifelong Oral Health
           </h2>
           <p className="text-navy/80 leading-relaxed mb-6">
-            At Willis & Associates, I view implants not as a luxury expense but
+            At Cville Dentist, I view implants not as a luxury expense but
             as an investment in your health, function, and quality of life. A
             well-maintained implant can last 20+ years—essentially a lifetime.
             Compare that to:
@@ -337,7 +337,7 @@ export default function BlogImplantsCostContent() {
           </p>
 
           <h2 className="text-2xl font-bold text-navy mb-4 mt-8 font-heading">
-            Why Choose Willis & Associates for Implants?
+            Why Choose Cville Dentist for Implants?
           </h2>
           <p className="text-navy/80 leading-relaxed mb-6">
             Our practice offers several advantages that can affect cost-effectiveness:
@@ -368,7 +368,7 @@ export default function BlogImplantsCostContent() {
           <div className="bg-navy text-cream p-8 rounded-lg my-8">
             <p className="text-lg mb-4">
               Ready to explore your implant options? Schedule a consultation at
-              Willis & Associates Family Dentistry. We'll assess your situation,
+              Cville Dentist. We'll assess your situation,
               discuss cost, and help you understand your path to a restored smile.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">

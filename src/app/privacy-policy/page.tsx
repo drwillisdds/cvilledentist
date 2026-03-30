@@ -2,13 +2,13 @@ import { Metadata } from "next";
 import PrivacyPolicyContent from "@/components/PrivacyPolicyContent";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | Willis & Associates Family Dentistry | cvilledentist.com",
+  title: "Privacy Policy | Cville Dentist | cvilledentist.com",
   description:
-    "Privacy policy for Willis & Associates Family Dentistry in Charlottesville, VA. HIPAA-compliant protection of your dental health information.",
+    "Privacy policy for Cville Dentist in Charlottesville, VA. HIPAA-compliant protection of your dental health information.",
   openGraph: {
-    title: "Privacy Policy | Willis & Associates Family Dentistry | cvilledentist.com",
+    title: "Privacy Policy | Cville Dentist | cvilledentist.com",
     description:
-      "Privacy policy for Willis & Associates Family Dentistry in Charlottesville, VA. HIPAA-compliant protection of your dental health information.",
+      "Privacy policy for Cville Dentist in Charlottesville, VA. HIPAA-compliant protection of your dental health information.",
     type: "website",
     locale: "en_US",
   },

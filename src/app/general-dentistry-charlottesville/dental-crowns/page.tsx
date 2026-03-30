@@ -3,10 +3,10 @@ import DentalCrownsContent from "@/components/general-dentistry/DentalCrownsCont
 import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
-  title: "Dental Crowns in Charlottesville VA | Willis & Associates",
+  title: "Dental Crowns in Charlottesville VA | Cville Dentist",
   description: "Restore damaged teeth with durable porcelain and zirconia crowns. Same-day crown technology available. Expert dental crown work by Dr. Sowmya Karamcheti in Charlottesville.",
   openGraph: {
-    title: "Dental Crowns in Charlottesville VA | Willis & Associates",
+    title: "Dental Crowns in Charlottesville VA | Cville Dentist",
     description: "Restore damaged teeth with durable porcelain and zirconia crowns. Same-day crown technology available. Expert dental crown work by Dr. Sowmya Karamcheti in Charlottesville.",
     type: "website",
     url: "https://cvilledentist.com/general-dentistry-charlottesville/dental-crowns",
@@ -53,7 +53,7 @@ export default function DentalCrownsPage() {
               },
               {
                 "@type": "Question",
-                name: "Does Willis & Associates offer same-day crowns?",
+                name: "Does Cville Dentist offer same-day crowns?",
                 acceptedAnswer: {
                   "@type": "Answer",
                   text: "Yes, we have same-day crown technology available for many cases. This allows us to prepare your tooth and place a finished crown in a single appointment.",

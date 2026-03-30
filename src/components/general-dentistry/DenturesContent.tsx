@@ -200,7 +200,7 @@ export default function DenturesContent() {
     {
       title: "Regular Check-Ups",
       description:
-        "Visit Willis & Associates every 6-12 months for professional cleaning and to check for fit issues. Your mouth shape changes over time, requiring adjustments.",
+        "Visit Cville Dentist every 6-12 months for professional cleaning and to check for fit issues. Your mouth shape changes over time, requiring adjustments.",
     },
     {
       title: "Avoid Extreme Temperatures",
@@ -444,7 +444,7 @@ export default function DenturesContent() {
             variants={itemVariants}
             className="font-heading text-3xl sm:text-4xl text-navy mb-12"
           >
-            The Denture Fitting Process at Willis & Associates
+            The Denture Fitting Process at Cville Dentist
           </motion.h2>
 
           <div className="space-y-4 mb-12">
@@ -549,9 +549,9 @@ export default function DenturesContent() {
           </div>
 
           <motion.div variants={itemVariants} className="mt-12 bg-blue-50 p-6 rounded-lg border border-blue-100">
-            <h3 className="text-navy font-semibold text-lg mb-3">Professional Cleaning at Willis & Associates</h3>
+            <h3 className="text-navy font-semibold text-lg mb-3">Professional Cleaning at Cville Dentist</h3>
             <p className="text-navy/80 text-base leading-relaxed">
-              Even with excellent home care, visit Willis & Associates every 6-12 months for professional cleaning and adjustment. Dr. Karamcheti inspects the dentures for wear, checks your bite, and ensures your mouth remains healthy. Regular monitoring helps catch issues early and extends denture life.
+              Even with excellent home care, visit Cville Dentist every 6-12 months for professional cleaning and adjustment. Dr. Karamcheti inspects the dentures for wear, checks your bite, and ensures your mouth remains healthy. Regular monitoring helps catch issues early and extends denture life.
             </p>
           </motion.div>
         </div>
@@ -570,7 +570,7 @@ export default function DenturesContent() {
             variants={itemVariants}
             className="font-heading text-3xl sm:text-4xl text-navy mb-12"
           >
-            The Benefits of Dentures at Willis & Associates
+            The Benefits of Dentures at Cville Dentist
           </motion.h2>
 
           <div className="grid sm:grid-cols-2 gap-6">
@@ -646,7 +646,7 @@ export default function DenturesContent() {
       {/* CTA Section */}
       <CTASection
         headline="Restore Your Smile with Custom Dentures"
-        subheadline="Dr. Sowmya Karamcheti creates beautiful, comfortable dentures tailored to your needs. Schedule a consultation at Willis & Associates in Charlottesville today."
+        subheadline="Dr. Sowmya Karamcheti creates beautiful, comfortable dentures tailored to your needs. Schedule a consultation at Cville Dentist in Charlottesville today."
         buttonText="Call (434) 973-5873"
         buttonLink="tel:4349735873"
       />

@@ -5,11 +5,11 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 export const metadata: Metadata = {
   title: "New Patient Forms | Charlottesville Dentist | cvilledentist.com",
   description:
-    "Download new patient forms before your first visit at Willis & Associates Family Dentistry. What to bring, parking, and what to expect.",
+    "Download new patient forms before your first visit at Cville Dentist. What to bring, parking, and what to expect.",
   openGraph: {
     title: "New Patient Forms | Charlottesville Dentist | cvilledentist.com",
     description:
-      "Download new patient forms before your first visit at Willis & Associates Family Dentistry. What to bring, parking, and what to expect.",
+      "Download new patient forms before your first visit at Cville Dentist. What to bring, parking, and what to expect.",
     type: "website",
     locale: "en_US",
   },
@@ -23,7 +23,7 @@ export default function PatientForms() {
     <>
       <PatientFormsContent />
       <SchemaMarkup
-        description="Patient forms and new patient information for Willis & Associates Family Dentistry in Charlottesville, VA."
+        description="Patient forms and new patient information for Cville Dentist in Charlottesville, VA."
         customData={{
           "@type": ["LocalBusiness", "Dentist", "MedicalBusiness"],
           areaServed: "Charlottesville, VA",

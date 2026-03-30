@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import ImagePlaceholder from "@/components/ImagePlaceholder";
+import { images } from "@/lib/images";
 import CTASection from "@/components/CTASection";
 
 const containerVariants = {
@@ -160,7 +160,7 @@ export default function TeamContent() {
             transition={{ duration: 0.6, ease: [0, 0, 0.2, 1] as [number, number, number, number] }}
           >
             <p className="text-lg text-gray-800 leading-relaxed font-semibold mb-3">
-              Willis & Associates Family Dentistry in Charlottesville employs a stable, experienced dental team led by Dr. Sowmya Karamcheti (DDS, MHA) and Dr. James Willis (DDS). Patients see the same familiar faces at every visit — no revolving door of unfamiliar providers.
+              Cville Dentist in Charlottesville employs a stable, experienced dental team led by Dr. Sowmya Karamcheti (DDS, MHA) and Dr. James Willis (DDS). Patients see the same familiar faces at every visit — no revolving door of unfamiliar providers.
             </p>
             <p className="text-gray-700 leading-relaxed">
               Our hygienists, assistants, and front desk staff are trained to the same high standard and stay with us year after year. That continuity of care makes all the difference in building trust, understanding your unique needs, and delivering consistent excellence.
@@ -188,22 +188,28 @@ export default function TeamContent() {
             animate={teamCardsInView ? "visible" : "hidden"}
             className="grid md:grid-cols-2 gap-12"
           >
-            {teamMembers.map((member, index) => (
-              <motion.div
-                key={index}
-                variants={cardVariants}
-                className="bg-cream rounded-lg p-8 shadow-sm hover:shadow-md transition-shadow"
-              >
-                <ImagePlaceholder
-                  aspectRatio="4/5"
-                  label={member.name}
-                  className="mb-6"
-                />
-                <h3 className="heading-sm text-navy mb-2">{member.name}</h3>
-                <p className="text-gold font-semibold mb-4">{member.role}</p>
-                <p className="text-gray-700 leading-relaxed">{member.bio}</p>
-              </motion.div>
-            ))}
+            {teamMembers.map((member, index) => {
+              let imageUrl = images.officeInterior1;
+              if (index === 0) imageUrl = images.drKaramcheti;
+              else if (index === 1) imageUrl = images.drWillis;
+
+              return (
+                <motion.div
+                  key={index}
+                  variants={cardVariants}
+                  className="bg-cream rounded-lg p-8 shadow-sm hover:shadow-md transition-shadow"
+                >
+                  <img
+                    src={imageUrl}
+                    alt={`${member.name}, dental professional in Charlottesville`}
+                    className="w-full h-full object-cover rounded-xl mb-6"
+                  />
+                  <h3 className="heading-sm text-navy mb-2">{member.name}</h3>
+                  <p className="text-gold font-semibold mb-4">{member.role}</p>
+                  <p className="text-gray-700 leading-relaxed">{member.bio}</p>
+                </motion.div>
+              );
+            })}
           </motion.div>
         </div>
       </section>
@@ -352,7 +358,7 @@ export default function TeamContent() {
       <CTASection
         variant="gold"
         headline="Meet Your Team"
-        subheadline="Schedule a consultation with Willis & Associates and experience the difference a stable, experienced team makes."
+        subheadline="Schedule a consultation with Cville Dentist and experience the difference a stable, experienced team makes."
         buttonText="Schedule Your First Visit"
         buttonLink="/new-patients"
       />

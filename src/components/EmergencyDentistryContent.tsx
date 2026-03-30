@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import CTASection from "@/components/CTASection";
-import ImagePlaceholder from "@/components/ImagePlaceholder";
+import { images } from "@/lib/images";
 import {
   Phone,
   AlertCircle,
@@ -203,7 +203,7 @@ export default function EmergencyDentistryContent() {
         <div className="max-w-4xl mx-auto">
           <p className="text-sm font-semibold text-[#c9a84c] uppercase tracking-wider mb-2">Quick Answer</p>
           <p className="text-lg md:text-xl text-[#1a2332] font-medium leading-relaxed">
-            Yes. Willis & Associates Family Dentistry in Charlottesville offers same-day emergency dental appointments Monday through Thursday, 8 AM to 5 PM. Call (434) 973-5873 during office hours or reach the after-hours emergency line at 434-922-0340. Walk-ins welcome.
+            Yes. Cville Dentist in Charlottesville offers same-day emergency dental appointments Monday through Thursday, 8 AM to 5 PM. Call (434) 973-5873 during office hours or reach the after-hours emergency line at 434-922-0340. Walk-ins welcome.
           </p>
         </div>
       </section>
@@ -247,10 +247,10 @@ export default function EmergencyDentistryContent() {
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            <ImagePlaceholder
-              aspectRatio="square"
-              label="Emergency Dental Care"
-              className="rounded-lg shadow-lg"
+            <img
+              src={images.emergencyDental}
+              alt="Emergency dental care and same-day treatment in Charlottesville"
+              className="w-full h-full object-cover rounded-lg shadow-lg"
             />
           </motion.div>
         </div>

@@ -24,7 +24,7 @@ export default function Bonding() {
     <>
       <BondingContent />
       <SchemaMarkup
-        description="Dental bonding in Charlottesville by Dr. Karamcheti at Willis & Associates. Same-day cosmetic repairs for chips, gaps, and stains. Affordable alternative to veneers."
+        description="Dental bonding in Charlottesville by Dr. Karamcheti at Cville Dentist. Same-day cosmetic repairs for chips, gaps, and stains. Affordable alternative to veneers."
         customData={{
           "@type": ["Dentist", "LocalBusiness", "MedicalBusiness"],
           areaServed: {

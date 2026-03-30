@@ -3,10 +3,10 @@ import DenturesContent from "@/components/general-dentistry/DenturesContent";
 import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
-  title: "Dentures in Charlottesville VA | Willis & Associates Family Dentistry",
+  title: "Dentures in Charlottesville VA | Cville Dentist",
   description: "Complete and partial dentures in Charlottesville. Custom-fit, modern materials, digital impressions. Dr. Sowmya Karamcheti offers natural-looking restoration.",
   openGraph: {
-    title: "Dentures in Charlottesville VA | Willis & Associates Family Dentistry",
+    title: "Dentures in Charlottesville VA | Cville Dentist",
     description: "Custom dentures in Charlottesville - full and partial dentures with modern materials and fitting.",
     type: "website",
     url: "https://cvilledentist.com/general-dentistry-charlottesville/dentures",

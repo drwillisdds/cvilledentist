@@ -5,7 +5,7 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 export const metadata: Metadata = {
   title: "iTero Digital Scanner in Charlottesville | No-Gag Impressions",
   description:
-    "iTero 3D scanner at Willis & Associates eliminates uncomfortable impression trays. Fast, accurate digital scans for crowns, bridges, and Invisalign in Charlottesville.",
+    "iTero 3D scanner at Cville Dentist eliminates uncomfortable impression trays. Fast, accurate digital scans for crowns, bridges, and Invisalign in Charlottesville.",
   openGraph: {
     title: "iTero Digital Scanner in Charlottesville | No-Gag Impressions",
     description:
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 export default function IteroScannerPage() {
   return (
     <>
-      <SchemaMarkup description="iTero digital scanner at Willis & Associates Charlottesville. 3D dental impressions for Invisalign, crowns, bridges, and more with no gag reflex involved." />
+      <SchemaMarkup description="iTero digital scanner at Cville Dentist Charlottesville. 3D dental impressions for Invisalign, crowns, bridges, and more with no gag reflex involved." />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
