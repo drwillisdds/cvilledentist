@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cvilledentist.com/sitemap.xml
+
+# AI Crawler Information
+# See https://cvilledentist.com/llms.txt for structured AI-readable content
