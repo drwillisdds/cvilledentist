@@ -41,7 +41,7 @@ export const images = {
   // Insurance logos
   deltaDental: "https://static.wixstatic.com/media/06b4de_02018e2a3a45441293e46b20e67c8849~mv2.png/v1/fill/w_200,h_80,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/delta-dental.png",
 
-  // Unsplash dental stock photos for service pages
+  // Unsplash dental stock photos for service pages — curated high-quality
   dentalChair: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1200&h=800&fit=crop&q=80",
   dentalExam: "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1200&h=800&fit=crop&q=80",
   smileCloseup: "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1200&h=800&fit=crop&q=80",
@@ -57,4 +57,12 @@ export const images = {
   cosmeticSmile: "https://images.unsplash.com/photo-1581585744210-dbb29ac7e3ff?w=1200&h=800&fit=crop&q=80",
   charlottesville: "https://images.unsplash.com/photo-1564078516393-cf04bd96299b?w=1920&h=1080&fit=crop&q=80",
   colonialArchitecture: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=1920&h=1080&fit=crop&q=80",
+
+  // Additional high-quality dental/medical photos
+  implantModel: "https://images.unsplash.com/photo-1606265752439-1f18756aa5fc?w=1200&h=800&fit=crop&q=80",
+  dentistWithPatient: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=1200&h=800&fit=crop&q=80",
+  brightSmile: "https://images.unsplash.com/photo-1544717305-2782549b5136?w=1200&h=800&fit=crop&q=80",
+  dentalTech: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200&h=800&fit=crop&q=80",
+  happyPatient: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1200&h=800&fit=crop&q=80",
+  familyPortrait: "https://images.unsplash.com/photo-1609220136736-443140cffec6?w=1200&h=800&fit=crop&q=80",
 };

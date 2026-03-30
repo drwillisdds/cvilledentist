@@ -115,7 +115,7 @@ function HeroSection() {
             </motion.div>
           </div>
 
-          {/* Right side - Image */}
+          {/* Right side - Office Photo */}
           <motion.div
             initial={{ opacity: 0, x: 40 }}
             animate={{ opacity: 1, x: 0 }}
@@ -123,8 +123,8 @@ function HeroSection() {
             className="hidden lg:block"
           >
             <img
-              src={images.drKaramcheti}
-              alt="Dr. Sowmya Karamcheti, DDS, MHA - Charlottesville Dentist"
+              src={images.officeInterior1}
+              alt="Modern dental office at Cville Dentist in Charlottesville, Virginia"
               className="w-full h-auto rounded-lg shadow-2xl"
             />
           </motion.div>
@@ -329,11 +329,13 @@ function ServicesSection() {
             >
               <Link href={service.link}>
                 <div className="h-full bg-white rounded-lg shadow-sm hover:shadow-md hover:scale-102 transition-all border-t-4 border-gold overflow-hidden cursor-pointer">
-                  <img
-                    src={service.image}
-                    alt={`${service.title} in Charlottesville`}
-                    className="w-full h-48 object-cover"
-                  />
+                  <div className="w-full h-48 overflow-hidden">
+                    <img
+                      src={service.image}
+                      alt={`${service.title} in Charlottesville`}
+                      className="w-full h-full object-cover object-center"
+                    />
+                  </div>
                   <div className="p-8">
                     <h3 className="heading-sm text-navy mb-3">
                       {service.title}
@@ -421,12 +423,12 @@ function TrustBadgesSection() {
   });
 
   const badges = [
-    { image: images.googleReview, alt: "Google Reviews logo" },
-    { image: images.healthgrades, alt: "Healthgrades logo" },
-    { image: images.invisalignLogo, alt: "Invisalign certified provider" },
-    { image: images.iteroLogo, alt: "iTero digital scanner logo" },
-    { image: images.agdLogo, alt: "Academy of General Dentistry logo" },
-    { image: images.adaLogo, alt: "American Dental Association logo" },
+    { image: images.googleReview, alt: "Google Reviews logo", height: "h-16" },
+    { image: images.healthgrades, alt: "Healthgrades logo", height: "h-12" },
+    { image: images.invisalignLogo, alt: "Invisalign certified provider", height: "h-14" },
+    { image: images.iteroLogo, alt: "iTero digital scanner logo", height: "h-12" },
+    { image: images.agdLogo, alt: "Academy of General Dentistry logo", height: "h-14" },
+    { image: images.adaLogo, alt: "American Dental Association logo", height: "h-14" },
   ];
 
   return (
@@ -449,7 +451,7 @@ function TrustBadgesSection() {
               initial={{ opacity: 0, scale: 0.8 }}
               animate={inView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.8 }}
               transition={{ duration: 0.6, delay: index * 0.05 }}
-              className="h-12 w-auto object-contain"
+              className={`${badge.height} w-auto object-contain`}
             />
           ))}
         </motion.div>
@@ -669,22 +671,31 @@ function LocationSection() {
             </div>
           </motion.div>
 
-          {/* Google Maps Embed */}
+          {/* Google Maps Embed + Facility Photo */}
           <motion.div
             initial={{ opacity: 0, x: 40 }}
             animate={inView ? { opacity: 1, x: 0 } : { opacity: 0, x: 40 }}
             transition={{ duration: 0.8 }}
-            className="rounded-lg overflow-hidden shadow-md"
+            className="space-y-6"
           >
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3142.5!2d-78.5!3d38.03!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b3862d2c5ee3a5%3A0x1234!2s2375+Commonwealth+Dr+%23+A%2C+Charlottesville%2C+VA+22901!5e0!3m2!1sen!2sus!4v1711234567890!5m2!1sen!2sus"
-              width="100%"
-              height="400"
-              style={{ border: 0 }}
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
+            <div className="rounded-lg overflow-hidden shadow-md">
+              <iframe
+                src="https://maps.google.com/maps?q=Cville+Dentist+2375+Commonwealth+Dr+Charlottesville+VA+22901&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                width="100%"
+                height="350"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+            <div className="rounded-lg overflow-hidden shadow-md">
+              <img
+                src={images.facility1}
+                alt="Cville Dentist office exterior at 2375 Commonwealth Drive, Charlottesville VA"
+                className="w-full h-64 object-cover"
+              />
+            </div>
           </motion.div>
         </div>
       </div>
