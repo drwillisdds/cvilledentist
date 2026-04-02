@@ -7,14 +7,14 @@ export const images = {
 
   // ─── AI-GENERATED BRAND IMAGES (local /public/images/) ───
   // These are custom Nano Banana renders with Cville Dentist branding baked in
-  heroTreatment: "/images/hero-treatment.jpg",        // Hygienist with patient, logo on navy wall
-  facilitySpring: "/images/facility-spring.jpg",       // Colonial exterior, spring blooms
-  facilitySummer: "/images/facility-summer.jpg",       // Colonial exterior, summer landscaping
-  receptionLobby: "/images/reception-lobby.jpg",       // Navy accent wall, oak desk, cream chairs
-  treatmentRoom: "/images/treatment-room.jpg",         // Navy cabinetry, iTero scanner, gold trim
-  patientPortrait: "/images/patient-portrait.jpg",     // Middle-aged woman smiling, lobby background
-  smileCloseupAI: "/images/smile-closeup.jpg",         // Natural teeth closeup, warm lighting
-  familyWaiting: "/images/family-waiting.jpg",         // Family of four in branded waiting room
+  heroTreatment: "/images/hero-treatment.png",
+  facilitySpring: "https://static.wixstatic.com/media/06b4de_702f9500f927489eaaec93fbb9a75e69~mv2.jpg/v1/fill/w_1200,h_800,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_7403.jpg",
+  facilitySummer: "https://static.wixstatic.com/media/06b4de_702f9500f927489eaaec93fbb9a75e69~mv2.jpg/v1/fill/w_1200,h_800,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_7403.jpg",
+  receptionLobby: "/images/reception-lobby.png",
+  treatmentRoom: "/images/treatmentroom.png",
+  patientPortrait: "/images/patientportrait.png",
+  smileCloseupAI: "/images/smile-closeup.png",
+  familyWaiting: "/images/family-waiting.png",
 
   // ─── TEAM HEADSHOTS (real photos from Wix) ───
   drKaramcheti: "https://static.wixstatic.com/media/06b4de_7e0c3df7c02944b28235411c432e1bf7~mv2.jpg/v1/crop/x_0,y_290,w_3441,h_3796/fill/w_480,h_530,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/karamcheti.jpg",
@@ -27,40 +27,40 @@ export const images = {
   officeInterior3: "https://static.wixstatic.com/media/06b4de_ba5fcf43c6d14e3099b8b165608b51fb~mv2.jpg/v1/fill/w_1200,h_800,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_0497.jpg",
 
   // ─── HERO (now uses AI lobby image) ───
-  hero: "/images/reception-lobby.jpg",
+  hero: "/images/reception-lobby.png",
 
   // ─── SERVICE CATEGORY IMAGES (replaced with AI-generated) ───
-  familyService: "/images/family-waiting.jpg",
-  invisalignService: "/images/smile-closeup.jpg",
-  cosmeticService: "/images/patient-portrait.jpg",
+  familyService: "/images/family-waiting.png",
+  invisalignService: "/images/smile-closeup.png",
+  cosmeticService: "/images/patientportrait.png",
   insuranceService: "https://static.wixstatic.com/media/06b4de_013565cc1a9e46729a635494766983d0~mv2.png/v1/fill/w_600,h_400,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/insurance-opt.png",
-  emergencyService: "/images/hero-treatment.jpg",
+  emergencyService: "/images/hero-treatment.png",
   paymentService: "https://static.wixstatic.com/media/06b4de_ce1f340e8c8343d3a4d5ff031c2c9912~mv2.png/v1/fill/w_600,h_400,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/payment-opt.png",
-  womanSmiling: "/images/patient-portrait.jpg",
+  womanSmiling: "/images/patientportrait.png",
 
   // ─── DENTAL STOCK (for deep service pages, replaced where possible) ───
   dentistTools: "https://static.wixstatic.com/media/11062b_d6909f67b47246b88f1fd1d72d563a75~mv2.jpg/v1/fill/w_1200,h_800,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/dentist-tools.jpg",
-  dentalChair: "/images/treatment-room.jpg",
-  dentalExam: "/images/hero-treatment.jpg",
-  smileCloseup: "/images/smile-closeup.jpg",
-  familySmiling: "/images/family-waiting.jpg",
-  modernDentalOffice: "/images/reception-lobby.jpg",
-  teethModel: "/images/smile-closeup.jpg",
-  patientSmiling: "/images/patient-portrait.jpg",
-  seniorSmiling: "/images/patient-portrait.jpg",
-  childDentist: "/images/family-waiting.jpg",
-  teenSmiling: "/images/patient-portrait.jpg",
-  xrayDental: "/images/treatment-room.jpg",
-  emergencyDental: "/images/hero-treatment.jpg",
-  cosmeticSmile: "/images/smile-closeup.jpg",
-  charlottesville: "/images/facility-spring.jpg",
-  colonialArchitecture: "/images/facility-summer.jpg",
-  implantModel: "/images/treatment-room.jpg",
-  dentistWithPatient: "/images/hero-treatment.jpg",
-  brightSmile: "/images/smile-closeup.jpg",
-  dentalTech: "/images/treatment-room.jpg",
-  happyPatient: "/images/patient-portrait.jpg",
-  familyPortrait: "/images/family-waiting.jpg",
+  dentalChair: "/images/treatmentroom.png",
+  dentalExam: "/images/hero-treatment.png",
+  smileCloseup: "/images/smile-closeup.png",
+  familySmiling: "/images/family-waiting.png",
+  modernDentalOffice: "/images/reception-lobby.png",
+  teethModel: "/images/smile-closeup.png",
+  patientSmiling: "/images/patientportrait.png",
+  seniorSmiling: "/images/patientportrait.png",
+  childDentist: "/images/family-waiting.png",
+  teenSmiling: "/images/patientportrait.png",
+  xrayDental: "/images/treatmentroom.png",
+  emergencyDental: "/images/hero-treatment.png",
+  cosmeticSmile: "/images/smile-closeup.png",
+  charlottesville: "https://static.wixstatic.com/media/06b4de_702f9500f927489eaaec93fbb9a75e69~mv2.jpg/v1/fill/w_1200,h_800,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_7403.jpg",
+  colonialArchitecture: "https://static.wixstatic.com/media/06b4de_702f9500f927489eaaec93fbb9a75e69~mv2.jpg/v1/fill/w_1200,h_800,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_7403.jpg",
+  implantModel: "/images/treatmentroom.png",
+  dentistWithPatient: "/images/hero-treatment.png",
+  brightSmile: "/images/smile-closeup.png",
+  dentalTech: "/images/treatmentroom.png",
+  happyPatient: "/images/patientportrait.png",
+  familyPortrait: "/images/family-waiting.png",
 
   // ─── TRUST / CREDENTIAL BADGES (real from Wix) ───
   googleReview: "https://static.wixstatic.com/media/06b4de_231fc5254d814d769e753f5522abd4f3~mv2.png/v1/fill/w_200,h_100,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/google-review.png",
