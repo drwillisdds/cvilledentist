@@ -123,8 +123,8 @@ function HeroSection() {
             className="hidden lg:block"
           >
             <img
-              src={images.officeInterior1}
-              alt="Modern dental office at Cville Dentist in Charlottesville, Virginia"
+              src={images.heroTreatment}
+              alt="Dental hygienist caring for patient at Cville Dentist in Charlottesville, Virginia"
               className="w-full h-auto rounded-lg shadow-2xl"
             />
           </motion.div>
@@ -363,16 +363,16 @@ function OfficeTourSection() {
 
   const officePhotos = [
     {
-      image: images.officeInterior1,
-      alt: "Cville Dentist waiting room in Charlottesville",
+      image: images.receptionLobby,
+      alt: "Cville Dentist reception and waiting room in Charlottesville",
     },
     {
-      image: images.officeInterior2,
-      alt: "Dental treatment room at Cville Dentist Charlottesville",
+      image: images.treatmentRoom,
+      alt: "State-of-the-art dental treatment room with iTero scanner at Cville Dentist",
     },
     {
-      image: images.officeInterior3,
-      alt: "Modern dental office interior in Charlottesville",
+      image: images.heroTreatment,
+      alt: "Dental care in progress at Cville Dentist Charlottesville",
     },
   ];
 
@@ -691,7 +691,7 @@ function LocationSection() {
             </div>
             <div className="rounded-lg overflow-hidden shadow-md">
               <img
-                src={images.facility1}
+                src={images.facilitySpring}
                 alt="Cville Dentist office exterior at 2375 Commonwealth Drive, Charlottesville VA"
                 className="w-full h-64 object-cover"
               />

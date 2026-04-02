@@ -509,7 +509,7 @@ export default function ContactContent() {
             {/* Office Photo */}
             <div className="mb-8">
               <img
-                src={images.facility1}
+                src={images.facilitySummer}
                 alt="Cville Dentist office exterior in Charlottesville, Virginia at 2375 Commonwealth Drive"
                 className="w-full h-full object-cover rounded-lg shadow-lg"
               />
